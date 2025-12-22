@@ -1,0 +1,142 @@
+site_name: AI Hub
+site_description: Comprehensive AI learning resources, notes, and guides
+site_url: https://ozgurgulerx.github.io/ai-hub/
+repo_url: https://github.com/ozgurgulerx/ai-hub
+repo_name: ozgurgulerx/ai-hub
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - tags
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ozgurgulerx
+  generator: false
+
+nav:
+  - Home: index.md
+  
+  - RAG & Retrieval:
+    - Overview: retrieval-augmented-systems/index.md
+    - Comprehensive Guide: retrieval-augmented-systems/RAG-comprehensive-guide.md
+  
+  - Agents:
+    - Overview: agents/index.md
+    - Comprehensive Guide: agents/agents-comprehensive-guide.md
+    - MCP Protocol: agents/MCP-comprehensive-guide.md
+  
+  - AI Coding:
+    - Overview: ai-coding/index.md
+    - Comprehensive Guide: ai-coding/AI-coding-comprehensive-guide.md
+  
+  - AI Product Strategy:
+    - Overview: ai-product-strategy/index.md
+    - Comprehensive Guide: ai-product-strategy/AI-product-strategy-comprehensive-guide.md
+  
+  - EvalOps:
+    - Overview: evalops/index.md
+    - Comprehensive Guide: evalops/evalops-comprehensive-guide.md
+  
+  - Model Space:
+    - Overview: model-space/index.md
+    - Reasoning Models: model-space/reasoning-models-comprehensive-guide.md
+  
+  - AI Startups:
+    - Overview: ai-startups/index.md
+    - Infrastructure Guide: ai-startups/AI-infrastructure-startups-guide.md
+  
+  - AI Security:
+    - Overview: ai-security/index.md
