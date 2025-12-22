@@ -143,6 +143,13 @@ nav:
   
   - AI Model Space:
     - Overview: ai-model-space/index.md
+    - Reasoning Models: ai-model-space/reasoning-models/index.md
+    - State Space Models: ai-model-space/state-space-models/index.md
+    - World Models: ai-model-space/world-models/index.md
+    - Diffusion Models: ai-model-space/diffusion-models/index.md
+    - Multi-Modal Models: ai-model-space/multi-modal-models/index.md
+    - Small Language Models: ai-model-space/small-language-models/index.md
+    - Model APIs: ai-model-space/model-apis/index.md
   
   - AI Coding:
     - Overview: ai-coding/index.md
