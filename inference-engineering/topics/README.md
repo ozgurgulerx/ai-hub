@@ -6,3 +6,8 @@ Suggested pattern:
 - `overview.md` — mental models, setup notes, and quick wins
 - `gotchas.md` — sharp edges and fixes
 - Code snippets or minimal scripts alongside the docs when helpful
+
+## Quick links
+
+- Hardware trends (Bill Dally; Noiz summary, to verify): `hardware-trends/overview.md`
+- LLM inference workload (NVIDIA; Noiz summary, to verify): `llm-inference-workload/overview.md`

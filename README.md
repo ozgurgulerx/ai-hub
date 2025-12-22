@@ -50,19 +50,24 @@ Think of it as:
 ```text
 ai-hub/
 ├── ai-coding/                      # AI-assisted coding best practices
+├── ai-for-science/                 # AI for science (biomed, proteins, etc.)
 ├── ai-product-strategy/            # Product thinking for AI systems
 ├── ai-security-and-governance/     # Security, risk, compliance
 ├── ai-startups/                    # Curated AI startup landscape
-├── diffusion-models/               # Diffusion models (incl. text/sequence research)
+├── evalops/                        # Evaluation design + EvalOps notes
 ├── Graph-ML/                       # Graph ML (GraphML) & GNNs
 ├── inference-engineering/          # Latency, cost, performance
-├── reasoning-models/               # Reasoning LLMs & techniques
+├── model-apis/                     # Provider APIs (Responses, tool calling, caching)
 ├── reinforcement-learning/         # RLFT, DPO, PPO, GRPO
 ├── retrieval-augmented-systems/    # RAG, Hybrid, GraphRAG
-├── small-language-models/          # SLMs: small LMs, training notes
-├── state-space-models/             # SSMs as alternative sequence architectures
 ├── causal-ml/                      # Causal inference & causal ML
-├── multi-modal-AI/                 # Multimodal AI (text+vision+audio+video)
+├── model-space/                    # Model families + alternative architectures
+│   ├── diffusion-models/           # Diffusion models (incl. text/sequence research)
+│   ├── reasoning-models/           # Reasoning LLMs & techniques
+│   ├── small-language-models/      # SLMs: small LMs, training notes
+│   ├── state-space-models/         # SSMs as alternative sequence architectures
+│   ├── multi-modal-models/         # Multimodal models (text+vision+audio+video)
+│   └── world-models/               # World models for planning/control
 ├── workshops/                      # End-to-end guided workshops
 ├── conference-notes-microsoft-ignite-2025/
 ├── assets/                         # Diagrams, visuals, figures

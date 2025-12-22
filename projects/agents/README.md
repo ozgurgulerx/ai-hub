@@ -114,6 +114,8 @@ OPENAI_API_KEY is honored as a fallback in some samples, but Azure settings are 
 - `04-foundry-agent-service/` — Azure AI Foundry agents via low-level `AgentsClient` and `AzureAIAgentClient` (AAD or key).
 - `05-agent-memory-general/` — Memory patterns from stateless history to thread-backed stores (Azure AI Search, Redis, JSON), long-term Mem0 + vector search (single + multi-agent), thread persistence/serialization, and intent-aware planner demos.
 - `agent-protocols/` — Interop topics like MCP and A2A (how agents connect to tools/resources and to each other).
+- `multi-agent/` — Multi-agent patterns + notes index.
+- `notes/` — Talk notes and distilled learnings (claims-to-verify).
 - `docu/` — Offline PDF references from official docs.
 
 ---

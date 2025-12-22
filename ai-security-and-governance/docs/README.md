@@ -7,6 +7,7 @@ A navigable index of “chapter-style” notes under `ai-security-and-governance
 - **AI Governance**: `ai-governance/README.md`
 - **Agent Governance**: `agent-governance/README.md`
 - **MCP Security**: `mcp-security/README.md`
+- **Zero-click + agents** (threat note): `agent-governance/zero-click-attacks-ai-agents-noiz-summary.md`
 - **Privacy-Preserving ML**
   - Overview: `privacy/README.md`
   - Differential privacy: `privacy/differential-privacy.md`

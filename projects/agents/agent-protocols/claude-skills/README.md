@@ -55,3 +55,7 @@ If you want to compare Skills vs MCP fairly, choose metrics:
 - Claude Skills Cookbook repo:
 - Cookbook notebooks (intro, finance, custom skills):
 - Provider docs for skills / files API / code execution:
+
+## Related Notes (In This Repo)
+
+- Building more effective agents (Claude Skills/SDK framing; Noiz summary, to verify): `../../notes/building-more-effective-ai-agents-claude-noiz-summary.md`

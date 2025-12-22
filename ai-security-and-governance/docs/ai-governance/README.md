@@ -8,6 +8,7 @@ AI governance is the operating model that turns **responsible AI principles** in
 - Security for AI: https://learn.microsoft.com/en-us/security/security-for-ai/
 - Responsible AI Toolbox (incl. dashboards): https://github.com/microsoft/responsible-ai-toolbox
 - Microsoft compliance assurance for AI: https://learn.microsoft.com/en-us/compliance/assurance/assurance-artificial-intelligence
+- AI safety framing beyond “existential-only” (Noiz summary, to verify): `../../notes/ai-safety-for-everyone-atoosa-kasirzadeh-noiz-summary.md`
 
 ## A Practical Lifecycle: Govern → Map → Measure → Manage
 

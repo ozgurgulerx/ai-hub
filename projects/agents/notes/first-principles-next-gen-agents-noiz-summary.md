@@ -77,10 +77,10 @@ This note distills claims from a **Noiz** YouTube transcript/summary provided in
 
 ## Cross-links (in this repo)
 
-- Context engineering (filesystem-backed, compaction, sub-agents): `../../retrieval-augmented-systems/README.md`
-- “No vibes allowed” (RPI + compaction; sub-agent search pattern): `../../retrieval-augmented-systems/notes/context-engineering-no-vibes-allowed.md`
+- Context engineering (filesystem-backed, compaction, sub-agents): `../../../retrieval-augmented-systems/README.md`
+- “No vibes allowed” (RPI + compaction; sub-agent search pattern): `../../../retrieval-augmented-systems/notes/context-engineering-no-vibes-allowed.md`
 - MCP and tool boundaries: `../agent-protocols/mcp/README.md`
-- Agent governance controls (approvals, audits, kill switches): `../../ai-security-and-governance/docs/agent-governance/README.md`
+- Agent governance controls (approvals, audits, kill switches): `../../../ai-security-and-governance/docs/agent-governance/README.md`
 
 ## Appendix: Raw Notes (Preserved)
 

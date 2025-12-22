@@ -21,5 +21,6 @@ Depending on the system, “A2A” can mean anything from simple message passing
 
 ## Related
 
-- Governance controls: `ai-security-and-governance/docs/agent-governance/README.md`
-- Workshop: `workshops/05-agent-to-agent-topologies-and-negotiation-on-azure/README.md`
+- Governance controls: `../../../../ai-security-and-governance/docs/agent-governance/README.md`
+- Workshop: `../../../../workshops/05-agent-to-agent-topologies-and-negotiation-on-azure/README.md`
+- A2A protocol notes (Noiz summary, to verify): `a2a-protocol-noiz-summary.md`

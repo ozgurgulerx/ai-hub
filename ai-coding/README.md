@@ -24,6 +24,11 @@ Best practices, checklists, and patterns for using AI assistants to **write, rev
 ## Related Notes (In This Repo)
 
 - Context engineering for big codebases (“No vibes allowed”): `../retrieval-augmented-systems/notes/context-engineering-no-vibes-allowed.md`
-- GPT‑5 coding/agent notes (Build Hour; Noiz summary, to verify): `../reasoning-models/gpt-5/README.md`
+- GPT‑5 coding/agent notes (Build Hour; Noiz summary, to verify): `../model-space/reasoning-models/gpt-5/README.md`
+- Automating discovery (novel insight limits; Jakub Pachocki; Noiz summary, to verify): `../model-space/reasoning-models/notes/automating-discovery-jakub-pachocki-noiz-summary.md`
 - Retrieval for autonomous coding agents (why “RAG for code” can backfire; Noiz summary, to verify): `notes/retrieval-for-autonomous-coding-agents-cline-noiz-summary.md`
 - Cursor 2.0 first impressions (Eric Zakariasson; Noiz summary, to verify): `notes/cursor-2-0-first-impressions-eric-zakariasson-noiz-summary.md`
+- Building Cursor Composer (Ray Summit 2025 keynote; Noiz summary, to verify): `notes/building-cursor-composer-ray-summit-2025-sasha-rush-noiz-summary.md`
+- AIE CODE 2025 AI leadership (agents, evals, ROI, risk; Noiz summary, to verify): `notes/aie-code-2025-ai-leadership-noiz-summary.md`
+- Claude Code playbook (Cloud.md, MCP, GitHub workflows; Noiz summary, to verify): `notes/claude-code-playbook-cloud-md-mcp-noiz-summary.md`
+- Claude Code (beginner→expert in 19 minutes; Noiz summary, to verify): `notes/claude-code-beginner-to-expert-19-min-noiz-summary.md`

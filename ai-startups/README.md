@@ -20,6 +20,7 @@ Add one row per startup:
 | Reducto | Data tooling (ingestion) | Document ingestion/extraction for RAG (tables, layouts, spreadsheets) | “Better data” can dominate RAG quality; ingestion errors amplify downstream | `notes/reducto.md`, `https://youtu.be/DS4w1CMGJes` | Unverified |
 | turbopuffer | Retrieval / RAG / memory | Object-storage-first vector + hybrid search (cache-heavy) | Makes billion/trillion-scale vector storage economically plausible; adds filtering/facets/aggs | `notes/turbopuffer.md`, `https://turbopuffer.com/`, `https://youtu.be/l2N4DT35PKg` | Unverified |
 | Braintrust | EvalOps / safety evals | Eval + observability platform for LLM apps | Makes evaluation and iteration repeatable; turns “vibes” into measured engineering | `notes/braintrust.md`, `https://www.braintrust.dev/` | Unverified |
+| Surge AI | Data tooling (labeling / RHF / eval) | High-quality human data + evals/rubrics/verifiers for frontier model training | Human “taste” and domain expertise as a bottleneck for alignment, evals, and RL environments | `notes/surge-ai.md`, `https://youtu.be/dduQeaqmpnI` | Unverified |
 
 ## Categories (Suggested)
 

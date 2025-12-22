@@ -23,8 +23,13 @@ MCP is a protocol for connecting LLM/agent applications to **external tools and 
 
 ## Related
 
-- Governance controls: `ai-security-and-governance/docs/agent-governance/README.md`
-- Kill switches: `ai-security-and-governance/docs/agent-governance/kill-switches.md`
-- MCP security threat model + controls: `ai-security-and-governance/docs/mcp-security/README.md`
+- Governance controls: `../../../../ai-security-and-governance/docs/agent-governance/README.md`
+- Kill switches: `../../../../ai-security-and-governance/docs/agent-governance/kill-switches.md`
+- MCP security threat model + controls: `../../../../ai-security-and-governance/docs/mcp-security/README.md`
 - MCP server design (tool surface, examples, evals; Noiz summary, to verify): `server-design-for-llms-noiz-summary.md`
-- Workshop: `workshops/04-mcp-on-azure-ai-foundry/README.md`
+- MCP Dev Days (Day 1, DevTools; Noiz summary, to verify): `mcp-dev-days-day1-devtools-noiz-summary.md`
+- MCP 201 (Code w/ Claude; Noiz summary, to verify): `mcp-201-code-with-claude-noiz-summary.md`
+- Neo4j MCP: build a knowledge-graph agent + memory (Noiz summary, to verify): `road-to-nodes-neo4j-mcp-knowledge-graph-agent-workshop-noiz-summary.md`
+- Realtime voice model notes (GPT Realtime; MCP mention; Noiz summary, to verify): `../../../../model-space/multi-modal-models/notes/introducing-gpt-realtime-api-noiz-summary.md`
+- Claude agent loop framing (Claude Code SDK + MCP; Noiz summary, to verify): `../../notes/building-more-effective-ai-agents-claude-noiz-summary.md`
+- Workshop: `../../../../workshops/04-mcp-on-azure-ai-foundry/README.md`

@@ -46,6 +46,8 @@ These show up repeatedly across modern RAG stacks:
 
 - `graphrag-what-matters.md` — operators, cost/perf tradeoffs, what matters in GraphRAG implementations
 - `kg-evaluation-mine.md` — evaluating KG extraction quality (MINE-1/2 framing)
+- `graphrag-foundations-recap-two-years-of-kgs-and-genai-noiz-summary.md` — recap of “vectors + graphs”, ontologies, and agentic patterns (Noiz summary, to verify)
+- `knowledge-graphs-in-litigation-agents-tom-smoker-whyhow-noiz-summary.md` — applied use case: litigation agents + KGs, iterative schema refinement (Noiz summary, to verify)
 
 ## 6) Multimodal RAG
 
@@ -54,6 +56,9 @@ These show up repeatedly across modern RAG stacks:
 ## 7) Agents, context engineering, and long-context limits
 
 - `limits-of-long-context-models-kelly-hong-noiz-summary.md` — why “more context” can reduce reliability; distractors/context rot
+- `context-engineering-and-retrieval-chroma-noiz-summary.md` — context engineering + retrieval/reranking + code indexing notes (source not provided; to verify)
+- `context-engineering-lessons-from-manus-noiz-summary.md` — KV cache/prompt stability + tool calling optimization (Noiz summary, to verify)
+- `big-updates-to-redis-context-engine-tools-memory-noiz-summary.md` — unified context engine for structured+unstructured+memory (MCP native; Noiz summary, to verify)
 - `context-engineering-filesystem.md` — filesystem-backed context engineering patterns
 - `context-engineering-no-vibes-allowed.md` — compaction + RPI workflow for big codebases
 - `rag-in-age-of-agents-agentic-retrieval-noiz-summary.md` — agentic retrieval: start simple (`grep`/`find`) and iterate end-to-end

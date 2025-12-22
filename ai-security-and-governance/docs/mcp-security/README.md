@@ -104,6 +104,7 @@ Add detection for:
 
 - Agent operational controls: `../agent-governance/README.md`
 - Broader governance model: `../ai-governance/README.md`
+- MCP protocol patterns (client/server, tool/resource design, deployment): `../../../projects/agents/agent-protocols/mcp/README.md`
 
 ## Talk notes (to verify)
 

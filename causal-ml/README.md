@@ -24,3 +24,6 @@ This folder is for notes and references on **causal inference** and **causal mac
 - RL & bandits: `../reinforcement-learning/README.md`
 - Privacy (DP, federated learning): `../ai-security-and-governance/docs/privacy/README.md`
 
+## Notes
+
+- Traversal (causal ML × RL) — placeholder: `notes/traversal-causal-ml-and-reinforcement-learning.md`

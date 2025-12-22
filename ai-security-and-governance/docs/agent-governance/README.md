@@ -42,6 +42,7 @@ This folder focuses on governance for agents that can:
 - Logging/retention policy for traces and tool outputs (with privacy constraints)
 - “Break glass” + kill switch procedures and drills (see `kill-switches.md`)
 - Red-team scenario pack + evaluation checklist
+- Zero-click + agent abuse scenarios: `zero-click-attacks-ai-agents-noiz-summary.md`
 
 ## Next Files (Good Starting Point)
 
@@ -53,3 +54,4 @@ This folder focuses on governance for agents that can:
 Related:
 - MCP security notes: `../mcp-security/README.md`
 - Product note (deterministic “agent builder” pattern; claims to verify): `../../../ai-product-strategy/notes/openai-800m-weekly-users-specialization-rft-agents-noiz-summary.md`
+- Zero-click attacks and agent amplification (Noiz summary, to verify): `zero-click-attacks-ai-agents-noiz-summary.md`

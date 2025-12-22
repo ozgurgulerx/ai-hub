@@ -54,7 +54,7 @@ The summary uses “Multi-Head Attention” as the baseline for KV-cache memory 
 
 ## Related (in this repo)
 
-- DeepSeek V3.2 note (third-party claims to verify): `../../reasoning-models/deepseek-v3.2/README.md`
+- DeepSeek V3.2 note (third-party claims to verify): `../../model-space/reasoning-models/deepseek-v3.2/README.md`
 - vLLM internals (KV cache and attention kernels): `../books/inference-engineering/chapters/03-vllm-architecture.md`
 
 ## Appendix: Raw Notes (Preserved)
