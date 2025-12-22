@@ -87,6 +87,8 @@ Treat retrieval as a product system: align precision/recall/latency with busines
 
 Deep dive (Noiz summary notes; to verify): `notes/production-grade-retrieval-metrics-and-architectures-noiz-summary.md`
 
+At very large scale, storage + caching architecture can dominate feasibility (object-store-first vector storage, hybrid search primitives): `../ai-startups/notes/turbopuffer.md`
+
 ## Self-improving retrieval loops (production signals → better retrieval)
 
 If retrieval is the bottleneck, improvements come from a feedback loop:
@@ -220,6 +222,7 @@ Context engineering is the practice of filling the context window with the **rig
 
 Deep dives:
 
+- Limits of long-context models (“context rot”, distractors, and why “more context” can reduce reliability; Noiz summary, to verify): `notes/limits-of-long-context-models-kelly-hong-noiz-summary.md`
 - Filesystem as external context store: `notes/context-engineering-filesystem.md`
 - “No vibes allowed” (context compaction + RPI workflow): `notes/context-engineering-no-vibes-allowed.md`
 - Browser as a controlled data bridge for local/on-prem sources (OpenBB pattern; Noiz summary, to verify): `../projects/agents/agent-protocols/browser-data-bridge/README.md`

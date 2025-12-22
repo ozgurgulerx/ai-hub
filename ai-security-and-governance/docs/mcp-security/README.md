@@ -108,3 +108,4 @@ Add detection for:
 ## Talk notes (to verify)
 
 - “The Dark Side of MCP: Why Adoption Is Outpacing Safety” (Vitor Balocco) — Noiz summary notes: `dark-side-of-mcp-vitor-balocco-noiz-summary.md`
+- MCP server design guidelines (tool surface, examples, eval posture): `../../../projects/agents/agent-protocols/mcp/server-design-for-llms-noiz-summary.md`

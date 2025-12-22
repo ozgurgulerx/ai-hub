@@ -26,3 +26,4 @@ Best practices, checklists, and patterns for using AI assistants to **write, rev
 - Context engineering for big codebases (“No vibes allowed”): `../retrieval-augmented-systems/notes/context-engineering-no-vibes-allowed.md`
 - GPT‑5 coding/agent notes (Build Hour; Noiz summary, to verify): `../reasoning-models/gpt-5/README.md`
 - Retrieval for autonomous coding agents (why “RAG for code” can backfire; Noiz summary, to verify): `notes/retrieval-for-autonomous-coding-agents-cline-noiz-summary.md`
+- Cursor 2.0 first impressions (Eric Zakariasson; Noiz summary, to verify): `notes/cursor-2-0-first-impressions-eric-zakariasson-noiz-summary.md`
