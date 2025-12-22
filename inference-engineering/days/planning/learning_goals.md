@@ -71,6 +71,7 @@ Over these 100 days, “inference engineering” will explicitly cover:
 
 - **Modern attention & memory patterns**  
   - sliding-window / long-context attention, grouped/multi-query attention, FlashAttention, speculative decoding  
+  - Notes (MQA/GQA/MLA/DSA, talk-summary claims): `../../reading/how-attention-got-so-efficient-noiz-summary.md`
   - KV cache behavior and tuning (capacity, fragmentation, throughput vs latency trade-offs)
 
 - **Model diversity, not just one LLM**  
@@ -413,4 +414,3 @@ What slowed me down.
 ## Tomorrow
 What's next.
 ```
-

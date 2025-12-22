@@ -7,6 +7,7 @@ This is framework-agnostic first, then mapped to:
 - (A) **OpenAI RFT-style** mental model (graders + sampling + updates)
 - (B) **Hugging Face TRL** `GRPOTrainer`
 - (C) **Unsloth** GRPO recipes
+- (D) **VLM GRPO (multimodal) with TRL**: `days/Day03/vlm_grpo_with_trl.md`
 
 <details>
 <summary><strong>Quick navigation</strong></summary>

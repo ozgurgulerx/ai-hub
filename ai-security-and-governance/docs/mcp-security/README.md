@@ -61,7 +61,7 @@ Classify tools by impact and gate them:
 Implement:
 - Allowlist/denylist of tools per environment (dev/stage/prod)
 - Spend/rate limits and timeouts
-- “Kill switch” / safe-mode to disable tool execution quickly
+- “Kill switch” / safe-mode to disable tool execution quickly (see `../agent-governance/kill-switches.md`)
 
 ### 5) Input validation + output handling (anti-injection)
 
@@ -105,3 +105,6 @@ Add detection for:
 - Agent operational controls: `../agent-governance/README.md`
 - Broader governance model: `../ai-governance/README.md`
 
+## Talk notes (to verify)
+
+- “The Dark Side of MCP: Why Adoption Is Outpacing Safety” (Vitor Balocco) — Noiz summary notes: `dark-side-of-mcp-vitor-balocco-noiz-summary.md`

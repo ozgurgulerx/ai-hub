@@ -56,10 +56,12 @@ Learn how NVIDIA thinks about GEMM tiling and tensor core utilization so you can
 
 - “A Beginner’s Guide to GEMM Optimization” (Colfax Research) – search: `colfax gemm tutorial`.  
 - Skim the **CUTLASS documentation** overview (tiling, threadblocks, MMA instructions).
+- Pete Warden, **“An Engineer’s Guide to GEMM”** (correctness pitfalls: layout/transposes/leading dimensions): `../../reading/pete-warden-engineers-guide-to-gemm.md`
 
 Focus on:
 - FLOPs, math throughput, and roofline-style reasoning.  
 - How tiles move through HBM → L2 → shared memory → registers.  
+- Correctness pitfalls that can silently cancel out (row/column-major vs transpose vs argument order; leading dimensions).
 
 #### ✅ Acceptance Criteria
 
@@ -222,4 +224,3 @@ Keep your study centered on:
 
 - [ ] One short paragraph in your notes titled **“My GPU learning filter (LLM inference only)”**.  
 - [ ] A trimmed reading list you can realistically finish over the next 4–6 weeks.
-

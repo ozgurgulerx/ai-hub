@@ -138,3 +138,7 @@ OPENAI_API_KEY is honored as a fallback in some samples, but Azure settings are 
 - [Azure OpenAI docs](https://learn.microsoft.com/azure/ai-services/openai/)
 - [Responsible AI](https://www.microsoft.com/ai/responsible-ai)
 - [Introducing Microsoft Agent Framework](https://azure.microsoft.com/blog/introducing-microsoft-agent-framework/)
+
+## Additional notes (in this repo)
+
+- Agent design “first principles” (agentic era, tool coupling, sub-agents, eval posture) — Noiz summary notes: `notes/first-principles-next-gen-agents-noiz-summary.md`

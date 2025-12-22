@@ -6,6 +6,8 @@ Interoperability and communication layers used by agentic systems.
 
 - MCP (Model Context Protocol): `mcp/README.md`
 - A2A (Agent-to-Agent): `a2a/README.md`
+- Claude Skills (Anthropic): `claude-skills/README.md`
+- Browser as the data bridge (OpenBB pattern): `browser-data-bridge/README.md`
 
 ## How This Relates To The Rest Of The Repo
 

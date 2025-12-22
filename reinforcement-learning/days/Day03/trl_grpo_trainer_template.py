@@ -6,6 +6,9 @@ you have installed (APIs move quickly). The learning goal is wiring:
 
 dataset (prompts) -> generate K completions -> compute verifiable reward -> GRPO update -> log curves.
 
+For multimodal/VLM GRPO notes (image + text prompts, processor wiring, format+accuracy rewards):
+see `days/Day03/vlm_grpo_with_trl.md`.
+
 Pass/fail (for you):
 1) You can point to where K is controlled.
 2) You can point to where KL control is applied (or configured).
@@ -110,4 +113,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

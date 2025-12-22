@@ -71,6 +71,9 @@
 **Decode Phase**
 : The autoregressive token generation phase after the initial prompt processing. Memory-bandwidth bound.
 
+**DSA (DeepSeek Sparse Attention)**
+: A DeepSeek-named sparse attention variant described (in a talk summary) as reducing compute cost; details and benchmarks should be verified against primary sources.
+
 **DeepSpeed**
 : Microsoft's deep learning optimization library for training and inference.
 
@@ -137,6 +140,12 @@
 ---
 
 ## M
+
+**MLA (Multi-head Latent Attention)**
+: An attention approach that compresses query/key/value representations into a lower-dimensional latent space; specific configurations (e.g., claimed 576-d in some summaries) should be verified per model.
+
+**MQA (Multi-Query Attention)**
+: An attention variant where many query heads share a smaller set of key/value heads (often a single KV head), reducing KV-cache memory at potential quality cost.
 
 **MIG (Multi-Instance GPU)**
 : NVIDIA feature allowing a single GPU to be partitioned into multiple isolated instances.

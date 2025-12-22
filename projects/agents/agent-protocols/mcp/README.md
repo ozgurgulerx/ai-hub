@@ -18,9 +18,13 @@ MCP is a protocol for connecting LLM/agent applications to **external tools and 
 - Tool/resource design conventions (schemas, idempotency, error contracts)
 - Security model (authn/authz, least privilege, sandboxing, audit logs)
 - Failure handling (timeouts, retries, partial failures, circuit breakers)
+- Operational safety controls (kill switches, safe mode)
 - Testing (contract tests for servers; replayable traces for clients)
 
 ## Related
 
 - Governance controls: `ai-security-and-governance/docs/agent-governance/README.md`
+- Kill switches: `ai-security-and-governance/docs/agent-governance/kill-switches.md`
+- MCP security threat model + controls: `ai-security-and-governance/docs/mcp-security/README.md`
+- MCP server design (tool surface, examples, evals; Noiz summary, to verify): `server-design-for-llms-noiz-summary.md`
 - Workshop: `workshops/04-mcp-on-azure-ai-foundry/README.md`

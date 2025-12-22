@@ -64,3 +64,30 @@ Some announcement/roadmap discussions also use evolving product/feature names (v
 - “Entra Agent ID” / agent identities
 - “Foundry control plane” / centralized AI platform governance
 - “Work IQ” / organizational intelligence and work context for Copilot experiences
+
+## Ontologies (Semantic Layer for Governed AI Retrieval)
+
+For enterprise LLM systems, reliability is often limited less by prompting and more by **data governance**: consistent definitions, lineage, permissions, policy enforcement, and source authority. Ontologies help by making “business meaning” explicit and machine-readable.
+
+What an ontology provides:
+
+- **Concept model**: business entities (Customer, Transaction, Policy) and their properties, independent of physical schemas.
+- **Relationships**: joins and dependencies expressed explicitly (including hierarchies and transitive relations).
+- **Governance hooks**: concept-level classifications, allowed uses, ownership, and policy bindings (e.g., “PII”, “gold source”, “region restricted”).
+- **Metric definitions**: standardized measures (e.g., “Revenue”) defined once and reused consistently.
+
+Why it matters for LLM + RAG:
+
+- Improves **source selection** (authoritative vs. non-authoritative) and reduces definition drift.
+- Enables **policy-aware retrieval** (filtering/pruning by user permissions and data classification).
+- Makes multi-system governance more consistent by expressing rules at the semantic layer, not per-tool.
+
+Practical note: “SQL-based ontologies” are increasingly discussed because they can express semantic models and governed views while fitting existing warehouse/lakehouse workflows (and avoiding specialized query languages in many teams).
+
+### Epistemology (What Ontologies Can and Can’t “Fix”)
+
+Ontology projects often fail for a non-technical reason: teams mix up **facts**, **inferences**, and **unknowns**, then expect reasoning to “fill in” missing data. A useful mental model (especially when combining OWL + SHACL) is captured in:
+
+- Deep dive: `ontology-epistemology-owl-shacl.md`
+
+Key idea: **reasoning exposes implications of what you already know; it does not acquire missing facts**. Completeness for action must be **declared and governed**, not inferred.

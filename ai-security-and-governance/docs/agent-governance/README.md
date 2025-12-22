@@ -40,7 +40,7 @@ This folder focuses on governance for agents that can:
 - MCP server registry (server inventory, exposed tools/resources, scopes, owners, review status)
 - Approval matrix (which actions require human approval vs. auto-execute)
 - Logging/retention policy for traces and tool outputs (with privacy constraints)
-- “Break glass” + kill switch procedures and drills
+- “Break glass” + kill switch procedures and drills (see `kill-switches.md`)
 - Red-team scenario pack + evaluation checklist
 
 ## Next Files (Good Starting Point)
@@ -48,6 +48,8 @@ This folder focuses on governance for agents that can:
 - `threat-model.md` (agent-specific threat model template)
 - `approval-matrix.md` (action categories → required approvals/controls)
 - `incident-runbook.md` (containment, rollback, evidence collection)
+- `kill-switches.md` (feature flags, safety files, outage containment)
 
 Related:
 - MCP security notes: `../mcp-security/README.md`
+- Product note (deterministic “agent builder” pattern; claims to verify): `../../../ai-product-strategy/notes/openai-800m-weekly-users-specialization-rft-agents-noiz-summary.md`

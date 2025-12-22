@@ -33,6 +33,7 @@ reinforcement-learning/
 │  ├─ Day01/  # RLFT/RFT on Azure AI Foundry
 │  ├─ Day02/  # DPO + PPO (Azure DPO + PPO baseline)
 │  └─ Day03/  # GRPO (RLVR/RFT)
+├─ continual-learning/
 ├─ planning/
 └─ README.md
 ```
@@ -40,6 +41,7 @@ reinforcement-learning/
 ## Focus areas
 
 - RL for LLMs: preference optimization, policy gradients, reward modeling, and evaluation.
+- Continual learning: update models over time without catastrophic forgetting.
 - World models: latent dynamics, imagination-based planning, and environment modeling.
 - Multimodal agents: vision-language grounding, tool use, memory, and retrieval.
 - Alignment and safety: controllability, calibration, robustness, and interpretability.
@@ -114,6 +116,10 @@ flowchart TB
 - RLHF Book (MEAP v1): `planning/rlhf_book_notes.md`
 - RLFT / RFT overview: `planning/rlft_concepts.md`
 - RLFT / RFT long-form notes: `planning/rlft_longform_notes.md`
+
+## References
+
+- Kevin P. Murphy (Dec 3, 2025), *Reinforcement Learning: An Overview* (review): `https://arxiv.org/pdf/2412.05265`
 
 ## Curriculum
 

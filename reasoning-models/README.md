@@ -69,7 +69,24 @@ Typical benchmarks and metrics:
 ## Model notes
 
 - DeepSeek-V3.2: `deepseek-v3.2/README.md`
+- GPT-5: `gpt-5/README.md`
 - Kimi-K2: `kimi-k2/README.md`
+- MiniMax-M2 (minimax2): `minimax2/README.md`
+
+## Research notes (architectures & methodology)
+
+- Continuous Thought Machines (Sakana AI talk notes): `sakana-continuous-thought-machines/README.md`
+
+## Compare & contrast (lightweight)
+
+Use this section to keep tradeoffs explicit and **source-backed** (avoid “vibes” comparisons).
+
+Suggested dimensions:
+- Reasoning depth (math/logic/multi-hop)
+- Code quality (patch correctness, unit-test pass rate)
+- Long-context reliability (needle-in-haystack, synthesis fidelity)
+- Tool/agent readiness (function-call accuracy, recovery behavior)
+- Ops (latency, cost, deployability/on-prem)
 
 ## Suggested Structure (Planned)
 

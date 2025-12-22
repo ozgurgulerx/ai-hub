@@ -32,12 +32,16 @@ Think of it as:
 ### Core areas
 
 - **LLM Builder Patterns**: what works in production, anti-patterns, failure modes
+- **AI Coding**: best practices for AI-assisted development
 - **Context Engineering**: RAG, Hybrid RAG, GraphRAG, memory, grounding, retrieval trade-offs
 - **Inference Engineering**: latency, cost, batching, model selection
+- **Small Language Models (SLMs)**: build and deploy compact models
 - **Reasoning Models**: structured reasoning, verification, tool-augmented thinking
+- **Alternative Architectures**: diffusion models and state space models (SSMs)
 - **Agents & Orchestration**: tool use, memory, A2A topologies
 - **Security & Governance**: network, data, model, safety by default
 - **EvalOps & CostOps**: measure → iterate → win
+- **AI Startups**: curated startup landscape
 
 ---
 
@@ -45,12 +49,18 @@ Think of it as:
 
 ```text
 ai-hub/
+├── ai-coding/                      # AI-assisted coding best practices
 ├── ai-product-strategy/            # Product thinking for AI systems
 ├── ai-security-and-governance/     # Security, risk, compliance
+├── ai-startups/                    # Curated AI startup landscape
+├── diffusion-models/               # Diffusion models (incl. text/sequence research)
+├── graph-ml/                       # Graph ML (GraphML) & GNNs
 ├── inference-engineering/          # Latency, cost, performance
 ├── reasoning-models/               # Reasoning LLMs & techniques
 ├── reinforcement-learning/         # RLFT, DPO, PPO, GRPO
 ├── retrieval-augmented-systems/    # RAG, Hybrid, GraphRAG
+├── small-language-models/          # SLMs: small LMs, training notes
+├── state-space-models/             # SSMs as alternative sequence architectures
 ├── workshops/                      # End-to-end guided workshops
 ├── conference-notes-microsoft-ignite-2025/
 ├── assets/                         # Diagrams, visuals, figures
