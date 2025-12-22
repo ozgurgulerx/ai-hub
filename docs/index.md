@@ -8,14 +8,14 @@ Start with these consolidated, high-signal references:
 
 | Guide | Description |
 |-------|-------------|
-| [**RAG & Retrieval**](retrieval-augmented-systems/notes/RAG-comprehensive-guide.md) | Data quality, chunking, embeddings, retrieval, reranking, GraphRAG, context engineering |
-| [**AI Agents**](agents/notes/agents-comprehensive-guide.md) | Architecture, production requirements, multi-agent systems, voice agents |
-| [**MCP Protocol**](agents/agent-protocols/mcp/MCP-comprehensive-guide.md) | Model Context Protocol for tool/resource integration |
-| [**AI Coding**](ai-coding/notes/AI-coding-comprehensive-guide.md) | Agent patterns, retrieval, testing, workflows (Cursor, Claude Code) |
-| [**AI Product Strategy**](ai-product-strategy/notes/AI-product-strategy-comprehensive-guide.md) | Product philosophy, GTM, vertical AI, enterprise automation |
-| [**EvalOps**](evalops/notes/evalops-comprehensive-guide.md) | Evaluation design, data quality, DSPy, safety benchmarking |
-| [**Reasoning Models**](model-space/reasoning-models/notes/reasoning-models-comprehensive-guide.md) | Chain-of-thought, Verifier's Law, scaling, discovery |
-| [**AI Startups**](ai-startups/notes/AI-infrastructure-startups-guide.md) | Infrastructure company profiles and evaluation |
+| [**RAG & Retrieval**](retrieval-augmented-systems/RAG-comprehensive-guide.md) | Data quality, chunking, embeddings, retrieval, reranking, GraphRAG, context engineering |
+| [**AI Agents**](agents/agents-comprehensive-guide.md) | Architecture, production requirements, multi-agent systems, voice agents |
+| [**MCP Protocol**](agents/MCP-comprehensive-guide.md) | Model Context Protocol for tool/resource integration |
+| [**AI Coding**](ai-coding/AI-coding-comprehensive-guide.md) | Agent patterns, retrieval, testing, workflows (Cursor, Claude Code) |
+| [**AI Product Strategy**](ai-product-strategy/AI-product-strategy-comprehensive-guide.md) | Product philosophy, GTM, vertical AI, enterprise automation |
+| [**EvalOps**](evalops/evalops-comprehensive-guide.md) | Evaluation design, data quality, DSPy, safety benchmarking |
+| [**Reasoning Models**](model-space/reasoning-models-comprehensive-guide.md) | Chain-of-thought, Verifier's Law, scaling, discovery |
+| [**AI Startups**](ai-startups/AI-infrastructure-startups-guide.md) | Infrastructure company profiles and evaluation |
 
 ## 🗂️ Repository Structure
 
@@ -38,13 +38,13 @@ ai-hub/
 Pick a guide based on what you're building:
 
 !!! tip "Building RAG systems?"
-    Start with the [RAG Comprehensive Guide](retrieval-augmented-systems/notes/RAG-comprehensive-guide.md)
+    Start with the [RAG Comprehensive Guide](retrieval-augmented-systems/RAG-comprehensive-guide.md)
 
 !!! tip "Building agents?"
-    Start with the [Agents Guide](agents/notes/agents-comprehensive-guide.md) and [MCP Guide](agents/agent-protocols/mcp/MCP-comprehensive-guide.md)
+    Start with the [Agents Guide](agents/agents-comprehensive-guide.md) and [MCP Guide](agents/MCP-comprehensive-guide.md)
 
 !!! tip "Evaluating AI systems?"
-    Start with the [EvalOps Guide](evalops/notes/evalops-comprehensive-guide.md)
+    Start with the [EvalOps Guide](evalops/evalops-comprehensive-guide.md)
 
 ## 📝 Note Status
 
