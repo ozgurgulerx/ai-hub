@@ -134,6 +134,18 @@ nav:
     - Overview: model-space/index.md
     - Reasoning Models: model-space/reasoning-models-comprehensive-guide.md
   
+  - Inference Engineering:
+    - Overview: inference-engineering/index.md
+  
+  - Reinforcement Learning:
+    - Overview: reinforcement-learning/index.md
+  
+  - AI for Science:
+    - Overview: ai-for-science/index.md
+  
+  - Causal ML:
+    - Overview: causal-ml/index.md
+  
   - AI Startups:
     - Overview: ai-startups/index.md
     - Infrastructure Guide: ai-startups/AI-infrastructure-startups-guide.md
@@ -142,5 +154,8 @@ nav:
     - Overview: ai-ux/index.md
     - Comprehensive Guide: ai-ux/AI-UX-comprehensive-guide.md
   
-  - AI Security:
-    - Overview: ai-security/index.md
+  - AI Security & Governance:
+    - Overview: ai-security-and-governance/index.md
+  
+  - Model APIs:
+    - Overview: model-apis/index.md
