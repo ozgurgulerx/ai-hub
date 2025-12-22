@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "[<agent_framework._types.TextContent object at 0x10ae1c2f0>]"
+    },
+    {
+      "role": "assistant",
+      "content": "[<agent_framework._types.TextContent object at 0x10b215a60>]"
+    }
+  ]
+}

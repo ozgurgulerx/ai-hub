@@ -1,0 +1,26 @@
+# MCP (Model Context Protocol)
+
+MCP is a protocol for connecting LLM/agent applications to **external tools and context providers** through a consistent client↔server interface. Practically, it standardizes how an agent:
+
+- Discovers capabilities (what tools/resources exist)
+- Fetches context/resources (files, docs, database-like resources)
+- Invokes tools (actions with structured inputs/outputs)
+
+## Why It Matters For Agents
+
+- **Portability**: swap tools/providers without rewriting agent logic.
+- **Separation of concerns**: keep domain integrations in MCP servers, keep reasoning/orchestration in the agent.
+- **Operational control**: centralize auth, rate limits, auditing, and approvals at the boundary.
+
+## What To Capture Here
+
+- Client/server architecture patterns and deployment options
+- Tool/resource design conventions (schemas, idempotency, error contracts)
+- Security model (authn/authz, least privilege, sandboxing, audit logs)
+- Failure handling (timeouts, retries, partial failures, circuit breakers)
+- Testing (contract tests for servers; replayable traces for clients)
+
+## Related
+
+- Governance controls: `ai-security-and-governance/docs/agent-governance/README.md`
+- Workshop: `workshops/04-mcp-on-azure-ai-foundry/README.md`

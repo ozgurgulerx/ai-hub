@@ -1,0 +1,4 @@
+agent-framework
+mem0
+azure-search-documents
+python-dotenv

@@ -1,0 +1,43 @@
+{
+  "type": "agent_thread_state",
+  "service_thread_id": null,
+  "chat_message_store_state": {
+    "type": "chat_message_store_state",
+    "messages": [
+      {
+        "type": "chat_message",
+        "role": {
+          "type": "role",
+          "value": "user"
+        },
+        "contents": [
+          {
+            "type": "text",
+            "annotations": null,
+            "text": "My favourite black hole is Sagittarius A*. Remember it."
+          }
+        ],
+        "author_name": null,
+        "message_id": null,
+        "additional_properties": {}
+      },
+      {
+        "type": "chat_message",
+        "role": {
+          "type": "role",
+          "value": "assistant"
+        },
+        "contents": [
+          {
+            "type": "text",
+            "annotations": null,
+            "text": "Noted: Sagittarius A* is your favourite black hole. I\u2019ll remember it in this chat. Want a quick fact about it?"
+          }
+        ],
+        "author_name": "persist-demo",
+        "message_id": null,
+        "additional_properties": {}
+      }
+    ]
+  }
+}

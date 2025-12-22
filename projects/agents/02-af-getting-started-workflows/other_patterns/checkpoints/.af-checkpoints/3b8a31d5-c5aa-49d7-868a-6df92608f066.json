@@ -1,0 +1,17 @@
+{
+  "checkpoint_id": "3b8a31d5-c5aa-49d7-868a-6df92608f066",
+  "workflow_id": "297abcb8-569c-44cb-9d22-10ba8aaee9d5",
+  "timestamp": "2025-11-19T14:00:40.815130+00:00",
+  "messages": {},
+  "shared_state": {
+    "latest_input": "Collect error budgets and summarize the trend."
+  },
+  "pending_request_info_events": {},
+  "iteration_count": 2,
+  "metadata": {
+    "superstep": 2,
+    "checkpoint_type": "superstep",
+    "graph_signature": "a47601a0dc28ebc572303281d3f946b66bdce8676a34fe2a91cccbe95b56a1f4"
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,37 @@
+<svg width="1400" height="320" viewBox="0 0 1400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI Agents Learning Hub banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f1b44"/>
+      <stop offset="50%" stop-color="#1d3c72"/>
+      <stop offset="100%" stop-color="#12233f"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7fffd4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7fffd4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#ffd166"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="320" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <text x="70" y="150" font-family="Inter, 'Segoe UI', sans-serif" font-size="72" font-weight="800" fill="#fff">AI Agents</text>
+    <text x="70" y="230" font-family="Inter, 'Segoe UI', sans-serif" font-size="60" font-weight="700" fill="url(#accent)">Learning Hub</text>
+  </g>
+  <g opacity="0.35">
+    <rect x="70" y="260" width="1260" height="6" rx="3" fill="url(#glow)"/>
+    <circle cx="320" cy="90" r="4" fill="#7fffd4"/>
+    <circle cx="520" cy="60" r="3" fill="#ffd166"/>
+    <circle cx="1180" cy="110" r="3.5" fill="#7fffd4"/>
+    <circle cx="980" cy="70" r="2.5" fill="#ffd166"/>
+    <circle cx="760" cy="40" r="3" fill="#7fffd4"/>
+  </g>
+  <g fill="none" stroke="#6dd3ff" stroke-width="1.2" stroke-opacity="0.35">
+    <path d="M150 120 C260 40, 420 80, 540 130"/>
+    <path d="M820 120 C950 60, 1100 90, 1240 160"/>
+  </g>
+</svg>

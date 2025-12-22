@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "text": "My favourite black hole is Sagittarius A*. Remember it."
+    },
+    {
+      "role": "assistant",
+      "text": "Noted: Sagittarius A* is your favourite black hole. I\u2019ll remember it for this chat."
+    },
+    {
+      "role": "user",
+      "text": "Which black hole did I say I like?"
+    },
+    {
+      "role": "assistant",
+      "text": "Sagittarius A*, your favourite black hole."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Intent-aware Mem0 Agent Flow</title>
+  <desc id="desc">Pipeline showing intent classification, Mem0 search with filters, main agent call, fact extraction, and memory add.</desc>
+  <style>
+    .title { font: 34px sans-serif; font-weight: 600; fill: #111827; }
+    .label { font: 18px sans-serif; fill: #111827; }
+    .note { font: 16px sans-serif; fill: #374151; }
+    .box { fill: #e0f2fe; stroke: #0284c7; stroke-width: 2; rx: 10; ry: 10; }
+    .side { fill: #ecfccb; stroke: #65a30d; stroke-width: 2; rx: 8; ry: 8; }
+    .arrow { stroke: #111827; stroke-width: 4; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" fill="#111827">
+      <polygon points="0 0, 10 5, 0 10" />
+    </marker>
+  </defs>
+
+  <text x="600" y="70" text-anchor="middle" class="title">Intent-aware Mem0 Agent Flow</text>
+
+  <rect x="470" y="110" width="260" height="60" class="box" />
+  <text x="600" y="147" text-anchor="middle" class="label">User Message</text>
+
+  <rect x="470" y="210" width="260" height="70" class="box" />
+  <text x="600" y="245" text-anchor="middle" class="label">Intent Classifier</text>
+  <text x="600" y="270" text-anchor="middle" class="note">optimization | forecasting | general</text>
+
+  <rect x="470" y="320" width="260" height="70" class="box" />
+  <text x="600" y="355" text-anchor="middle" class="label">Mem0 Search</text>
+  <text x="600" y="380" text-anchor="middle" class="note">metadata filter by intent</text>
+
+  <rect x="180" y="320" width="200" height="70" class="side" />
+  <text x="280" y="355" text-anchor="middle" class="label">Azure AI Search</text>
+  <text x="280" y="380" text-anchor="middle" class="note">vector store</text>
+
+  <rect x="470" y="430" width="260" height="70" class="box" />
+  <text x="600" y="465" text-anchor="middle" class="label">Main Agent</text>
+  <text x="600" y="490" text-anchor="middle" class="note">enriched context</text>
+
+  <rect x="470" y="540" width="260" height="70" class="box" fill="#fef3c7" stroke="#d97706" />
+  <text x="600" y="575" text-anchor="middle" class="label">Fact Extractor</text>
+  <text x="600" y="600" text-anchor="middle" class="note">structured facts</text>
+
+  <rect x="470" y="650" width="260" height="70" class="box" />
+  <text x="600" y="685" text-anchor="middle" class="label">Mem0 Add</text>
+  <text x="600" y="710" text-anchor="middle" class="note">store with filters</text>
+
+  <rect x="770" y="430" width="220" height="70" class="side" />
+  <text x="880" y="465" text-anchor="middle" class="label">Responses API</text>
+
+  <rect x="770" y="650" width="220" height="70" class="side" />
+  <text x="880" y="685" text-anchor="middle" class="label">Azure AI Search</text>
+  <text x="880" y="710" text-anchor="middle" class="note">embed + store</text>
+
+  <line x1="600" y1="170" x2="600" y2="210" class="arrow" />
+  <line x1="600" y1="280" x2="600" y2="320" class="arrow" />
+  <line x1="470" y1="355" x2="380" y2="355" class="arrow" />
+  <line x1="600" y1="390" x2="600" y2="430" class="arrow" />
+  <line x1="600" y1="500" x2="600" y2="540" class="arrow" />
+  <line x1="600" y1="610" x2="600" y2="650" class="arrow" />
+  <line x1="730" y1="465" x2="770" y2="465" class="arrow" />
+  <line x1="730" y1="685" x2="770" y2="685" class="arrow" />
+</svg>

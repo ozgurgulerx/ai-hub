@@ -1,0 +1,29 @@
+{
+  "checkpoint_id": "f407b7c6-98c7-48a8-8e8e-53d924a67f9b",
+  "workflow_id": "297abcb8-569c-44cb-9d22-10ba8aaee9d5",
+  "timestamp": "2025-11-19T14:00:40.678085+00:00",
+  "messages": {
+    "processor": [
+      {
+        "data": "COLLECT ERROR BUDGETS AND SUMMARIZE THE TREND.",
+        "source_id": "processor",
+        "target_id": null,
+        "type": "standard",
+        "trace_contexts": null,
+        "source_span_ids": null,
+        "original_request": null
+      }
+    ]
+  },
+  "shared_state": {
+    "latest_input": "Collect error budgets and summarize the trend."
+  },
+  "pending_request_info_events": {},
+  "iteration_count": 0,
+  "metadata": {
+    "superstep": 0,
+    "checkpoint_type": "initial",
+    "graph_signature": "a47601a0dc28ebc572303281d3f946b66bdce8676a34fe2a91cccbe95b56a1f4"
+  },
+  "version": "1.0"
+}

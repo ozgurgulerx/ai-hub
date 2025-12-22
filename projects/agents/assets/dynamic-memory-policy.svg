@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic Memory Policy &amp; Orchestration</title>
+  <desc id="desc">Diagram showing a policy brain orchestrating short-term and long-term memory stores with context providers.</desc>
+  <style>
+    .title { font: 36px sans-serif; font-weight: 600; fill: #1f2937; }
+    .label { font: 20px sans-serif; fill: #111827; }
+    .bullet { font: 18px sans-serif; fill: #111827; }
+    .box { fill: #eef2ff; stroke: #9ca3af; stroke-width: 2; rx: 10; ry: 10; }
+    .small-box { fill: #f3f4f6; stroke: #9ca3af; stroke-width: 1.5; rx: 8; ry: 8; }
+    .arrow { stroke: #6366f1; stroke-width: 6; marker-end: url(#arrowhead); }
+    .arrow2 { stroke: #10b981; stroke-width: 6; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" fill="#4b5563">
+      <polygon points="0 0, 10 5, 0 10" />
+    </marker>
+  </defs>
+
+  <text x="700" y="70" text-anchor="middle" class="title">Dynamic Memory Policy &amp; Orchestration</text>
+
+  <rect x="200" y="120" width="1000" height="120" class="box" fill="#e5e7eb" />
+  <text x="700" y="190" text-anchor="middle" class="label">Dynamic Memory (MEM0) Policy + Orchestration</text>
+
+  <rect x="520" y="270" width="360" height="70" class="small-box" />
+  <text x="700" y="315" text-anchor="middle" class="label">Context Provider API</text>
+
+  <rect x="120" y="360" width="520" height="340" class="box" />
+  <text x="380" y="410" text-anchor="middle" class="label">In-Memory Stores — Short-Term Memory</text>
+  <text x="180" y="450" class="bullet">• AI Foundry Agent Threads</text>
+  <text x="180" y="480" class="bullet">• Agent Framework Threads</text>
+
+  <rect x="760" y="360" width="520" height="340" class="box" />
+  <text x="1020" y="410" text-anchor="middle" class="label">Persistent Memory Stores — Long-Term Memory</text>
+  <text x="820" y="450" class="bullet">• NoSQL / Cosmos DB</text>
+  <text x="820" y="480" class="bullet">• KV Cache / Redis</text>
+  <text x="820" y="510" class="bullet">• Vector DB / AI Search</text>
+
+  <rect x="260" y="610" width="240" height="60" class="small-box" />
+  <text x="380" y="650" text-anchor="middle" class="label">Responses API</text>
+
+  <rect x="900" y="610" width="240" height="60" class="small-box" />
+  <text x="1020" y="650" text-anchor="middle" class="label">Agent Service Memory</text>
+
+  <line x1="700" y1="270" x2="380" y2="360" class="arrow" />
+  <line x1="700" y1="270" x2="1020" y2="360" class="arrow" />
+  <line x1="520" y1="440" x2="900" y2="440" class="arrow2" />
+  <line x1="520" y1="500" x2="900" y2="500" class="arrow" />
+  <line x1="500" y1="620" x2="900" y2="640" class="arrow" />
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Supply-chain Planner Fact Extraction Flow</title>
+  <desc id="desc">Flow for the scripted planner demo showing intent classification, Mem0 search, main agent, fact extraction, and storage.</desc>
+  <style>
+    .title { font: 34px sans-serif; font-weight: 600; fill: #111827; }
+    .label { font: 18px sans-serif; fill: #111827; }
+    .note { font: 16px sans-serif; fill: #374151; }
+    .box { fill: #f8fafc; stroke: #94a3b8; stroke-width: 2; rx: 10; ry: 10; }
+    .highlight { fill: #dcfce7; stroke: #16a34a; stroke-width: 2; rx: 10; ry: 10; }
+    .arrow { stroke: #0f172a; stroke-width: 4; marker-end: url(#arrowhead); }
+    .side { fill: #e0f2fe; stroke: #0284c7; stroke-width: 2; rx: 8; ry: 8; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" fill="#0f172a">
+      <polygon points="0 0, 10 5, 0 10" />
+    </marker>
+  </defs>
+
+  <text x="600" y="70" text-anchor="middle" class="title">Supply-chain Planner Fact Extraction Flow</text>
+
+  <rect x="470" y="110" width="260" height="60" class="box" />
+  <text x="600" y="147" text-anchor="middle" class="label">User Message</text>
+
+  <rect x="470" y="200" width="260" height="70" class="box" />
+  <text x="600" y="235" text-anchor="middle" class="label">Intent Classifier</text>
+  <text x="600" y="260" text-anchor="middle" class="note">optimization | forecasting</text>
+
+  <rect x="470" y="300" width="260" height="70" class="box" />
+  <text x="600" y="335" text-anchor="middle" class="label">Mem0 Search</text>
+  <text x="600" y="360" text-anchor="middle" class="note">semantic + metadata filter</text>
+
+  <rect x="180" y="300" width="200" height="70" class="side" />
+  <text x="280" y="335" text-anchor="middle" class="label">Azure AI Search</text>
+  <text x="280" y="360" text-anchor="middle" class="note">vector index</text>
+
+  <rect x="470" y="400" width="260" height="70" class="box" />
+  <text x="600" y="435" text-anchor="middle" class="label">Main Agent</text>
+  <text x="600" y="460" text-anchor="middle" class="note">Responses API</text>
+
+  <rect x="470" y="500" width="260" height="70" class="highlight" />
+  <text x="600" y="535" text-anchor="middle" class="label">Fact Extractor (NEW)</text>
+  <text x="600" y="560" text-anchor="middle" class="note">structured facts list</text>
+
+  <rect x="470" y="600" width="260" height="70" class="box" />
+  <text x="600" y="635" text-anchor="middle" class="label">Mem0 Add</text>
+  <text x="600" y="660" text-anchor="middle" class="note">embed + store (no LLM)</text>
+
+  <rect x="770" y="400" width="200" height="70" class="side" />
+  <text x="870" y="435" text-anchor="middle" class="label">Responses API</text>
+
+  <rect x="770" y="600" width="200" height="70" class="side" />
+  <text x="870" y="635" text-anchor="middle" class="label">Azure AI Search</text>
+  <text x="870" y="660" text-anchor="middle" class="note">user_id filtering</text>
+
+  <line x1="600" y1="170" x2="600" y2="200" class="arrow" />
+  <line x1="600" y1="270" x2="600" y2="300" class="arrow" />
+  <line x1="470" y1="335" x2="380" y2="335" class="arrow" />
+  <line x1="600" y1="370" x2="600" y2="400" class="arrow" />
+  <line x1="600" y1="470" x2="600" y2="500" class="arrow" />
+  <line x1="600" y1="570" x2="600" y2="600" class="arrow" />
+  <line x1="730" y1="435" x2="770" y2="435" class="arrow" />
+  <line x1="730" y1="635" x2="770" y2="635" class="arrow" />
+</svg>

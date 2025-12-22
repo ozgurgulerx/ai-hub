@@ -66,6 +66,11 @@ Typical benchmarks and metrics:
 - Track training recipes and fine-tuning strategies.
 - Compare inference-time reasoning techniques and evaluation results.
 
+## Model notes
+
+- DeepSeek-V3.2: `deepseek-v3.2/README.md`
+- Kimi-K2: `kimi-k2/README.md`
+
 ## Suggested Structure (Planned)
 
 - `notes/`: summaries of key papers and methods.

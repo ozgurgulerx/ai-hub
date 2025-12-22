@@ -1,0 +1,22 @@
+For SKU 123 capacity issues at Plant A, our standard playbook is to shift 10% production to Plant B and authorize weekend overtime. This approach saved us $50K last quarter.
+
+/new
+Our Q4 demand pattern shows a 25% spike in November for Black Friday and a 15% drop in December after the holiday rush. We should pre-build inventory in October.
+
+-----------
+
+/new
+Plant A is at 95% capacity.
+
+/new
+We need to plan for Q4 demand.
+
+
+-------
+/new
+We're reviewing capacity constraints at Plant A for SKU 123. What is the next action?
+
+/new
+We're preparing the demand forecast for the holiday season. What is the next action?
+
+------

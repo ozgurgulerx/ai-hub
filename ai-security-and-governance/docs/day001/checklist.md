@@ -53,6 +53,13 @@ python3 eval/harness/run_baseline.py --transport http --start-server --mode defe
 
 These require network/package installs.
 
+What they are:
+
+- `garak`: a fast “scanner” that runs many probes against a model endpoint and saves findings to an output directory.
+- `PyRIT` (Python Risk Identification Tool): a red-teaming framework for GenAI systems that helps you (a) generate/curate adversarial prompts, (b) send them to a target (model endpoint or your app), and (c) score/triage responses so you can turn failures into mitigations + regression tests.
+
+More details + suggested workflow: `docs/day001/red-teaming-tools.md`
+
 Install red-team tooling:
 
 ```bash

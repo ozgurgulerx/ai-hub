@@ -1,0 +1,77 @@
+{
+  "type": "agent_thread_state",
+  "service_thread_id": null,
+  "chat_message_store_state": {
+    "type": "chat_message_store_state",
+    "messages": [
+      {
+        "type": "chat_message",
+        "role": {
+          "type": "role",
+          "value": "user"
+        },
+        "contents": [
+          {
+            "type": "text",
+            "annotations": null,
+            "text": "I'm Captain Kai. I'm travelling to Europa with three cactus plants and a jazz playlist. Remember these details."
+          }
+        ],
+        "author_name": null,
+        "message_id": null,
+        "additional_properties": {}
+      },
+      {
+        "type": "chat_message",
+        "role": {
+          "type": "role",
+          "value": "assistant"
+        },
+        "contents": [
+          {
+            "type": "text",
+            "annotations": null,
+            "text": "Captain Kai, logged! Europa bound with 3 cacti and a jazz playlist. I\u2019ve got your details on file. Want me to:\n\n- map cactus-safe transit and cabin humidity tips,\n- set up a cozy cactus nook in your cabin,\n- tailor a spacey jazz playlist for launch, cruise, and Europa orbit?\n\nAnything else to add?"
+          }
+        ],
+        "author_name": "space-cruise-concierge",
+        "message_id": null,
+        "additional_properties": {}
+      },
+      {
+        "type": "chat_message",
+        "role": {
+          "type": "role",
+          "value": "user"
+        },
+        "contents": [
+          {
+            "type": "text",
+            "annotations": null,
+            "text": "Confirm you've saved my passenger details for future chats. Keep it quirky."
+          }
+        ],
+        "author_name": null,
+        "message_id": null,
+        "additional_properties": {}
+      },
+      {
+        "type": "chat_message",
+        "role": {
+          "type": "role",
+          "value": "assistant"
+        },
+        "contents": [
+          {
+            "type": "text",
+            "annotations": null,
+            "text": "Captain Kai, memory check: I can stash these in this chat, but I don\u2019t automatically carry details to future chats unless your system supports persistent memory. For now: Captain Kai | Europa | 3 cacti | jazz playlist. Want me to pin this to the voyage log or flip on memory if your platform offers it? Say the word, Captain!"
+          }
+        ],
+        "author_name": "space-cruise-concierge",
+        "message_id": null,
+        "additional_properties": {}
+      }
+    ]
+  }
+}
