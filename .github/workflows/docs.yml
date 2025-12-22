@@ -37,11 +37,11 @@ jobs:
           cp agents/notes/agents-comprehensive-guide.md docs/agents/
           cp agents/agent-protocols/mcp/MCP-comprehensive-guide.md docs/agents/
           cp ai-coding/notes/AI-coding-comprehensive-guide.md docs/ai-coding/
-          cp ai-product-strategy/notes/AI-product-strategy-comprehensive-guide.md docs/ai-product-strategy/
+          cp ai-product/strategy/notes/AI-product-strategy-comprehensive-guide.md docs/ai-product/strategy/
           cp evalops/notes/evalops-comprehensive-guide.md docs/evalops/
           cp model-space/reasoning-models/notes/reasoning-models-comprehensive-guide.md docs/model-space/
-          cp ai-startups/notes/AI-infrastructure-startups-guide.md docs/ai-startups/
-          cp ai-ux/notes/AI-UX-comprehensive-guide.md docs/ai-ux/
+          cp ai-product/startups/notes/AI-infrastructure-startups-guide.md docs/ai-product/startups/
+          cp ai-product/ux/notes/AI-UX-comprehensive-guide.md docs/ai-product/ux/
       
       - name: Build docs
         run: mkdocs build

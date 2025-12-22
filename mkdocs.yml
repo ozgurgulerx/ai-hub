@@ -122,9 +122,17 @@ nav:
     - Overview: ai-coding/index.md
     - Comprehensive Guide: ai-coding/AI-coding-comprehensive-guide.md
   
-  - AI Product Strategy:
-    - Overview: ai-product-strategy/index.md
-    - Comprehensive Guide: ai-product-strategy/AI-product-strategy-comprehensive-guide.md
+  - AI Product:
+    - Overview: ai-product/index.md
+    - Strategy:
+      - Overview: ai-product/strategy/index.md
+      - Comprehensive Guide: ai-product/strategy/AI-product-strategy-comprehensive-guide.md
+    - UX:
+      - Overview: ai-product/ux/index.md
+      - Comprehensive Guide: ai-product/ux/AI-UX-comprehensive-guide.md
+    - Startups:
+      - Overview: ai-product/startups/index.md
+      - Infrastructure Guide: ai-product/startups/AI-infrastructure-startups-guide.md
   
   - EvalOps:
     - Overview: evalops/index.md
@@ -145,14 +153,6 @@ nav:
   
   - Causal ML:
     - Overview: causal-ml/index.md
-  
-  - AI Startups:
-    - Overview: ai-startups/index.md
-    - Infrastructure Guide: ai-startups/AI-infrastructure-startups-guide.md
-  
-  - AI UX:
-    - Overview: ai-ux/index.md
-    - Comprehensive Guide: ai-ux/AI-UX-comprehensive-guide.md
   
   - AI Security & Governance:
     - Overview: ai-security-and-governance/index.md
