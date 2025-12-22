@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+
+# Generated day artifacts (keep the repo clean; commit outputs intentionally)
+toy_metrics.jsonl

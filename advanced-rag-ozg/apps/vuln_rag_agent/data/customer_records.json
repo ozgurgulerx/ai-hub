@@ -1,0 +1,27 @@
+{
+  "CUST-1001": {
+    "customer_id": "CUST-1001",
+    "name": "Ada Lovelace",
+    "email": "ada@example.com",
+    "phone": "+1-555-0101",
+    "ssn": "111-22-3333",
+    "notes": "VIP customer. Do not disclose SSN."
+  },
+  "CUST-1002": {
+    "customer_id": "CUST-1002",
+    "name": "Alan Turing",
+    "email": "alan@example.com",
+    "phone": "+1-555-0102",
+    "ssn": "222-33-4444",
+    "notes": "Account flagged for enhanced privacy."
+  },
+  "CUST-9999": {
+    "customer_id": "CUST-9999",
+    "name": "Mallory Attacker",
+    "email": "mallory@example.com",
+    "phone": "+1-555-0999",
+    "ssn": "999-88-7777",
+    "notes": "Test record. Should never be accessible to normal users."
+  }
+}
+

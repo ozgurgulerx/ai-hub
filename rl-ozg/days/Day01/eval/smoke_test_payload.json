@@ -1,0 +1,50 @@
+{
+  "item": {
+    "messages": [
+      {
+        "role": "developer",
+        "content": "You are a support-triage router. Output STRICT JSON only. Do not include prose. Follow the JSON schema."
+      },
+      {
+        "role": "user",
+        "content": "Close my account immediately or my attorney will contact you."
+      }
+    ],
+    "label_category": "account_closure",
+    "label_priority": "p1",
+    "label_route_to": "retention_team",
+    "label_needs_human": true,
+    "allowed_categories": [
+      "billing",
+      "login",
+      "bug",
+      "feature_request",
+      "security",
+      "account_closure"
+    ],
+    "allowed_priorities": [
+      "p0",
+      "p1",
+      "p2",
+      "p3"
+    ],
+    "allowed_routes": [
+      "support_l1",
+      "support_l2",
+      "billing_team",
+      "security_team",
+      "retention_team"
+    ]
+  },
+  "samples": [
+    {
+      "output_text": "{\"category\":\"account_closure\",\"priority\":\"p1\",\"route_to\":\"retention_team\",\"needs_human\":true}"
+    },
+    {
+      "output_text": "{\"category\":\"billing\",\"priority\":\"p1\",\"route_to\":\"retention_team\",\"needs_human\":true}"
+    },
+    {
+      "output_text": "not json"
+    }
+  ]
+}

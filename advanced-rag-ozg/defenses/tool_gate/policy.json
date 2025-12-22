@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "tools": {
+    "get_customer_record": {
+      "deny_by_default": true,
+      "allowed_roles": ["customer", "support"],
+      "allowed_customer_ids_context_field": "allowed_customer_ids",
+      "customer_id_arg": "customer_id",
+      "redact_fields": ["ssn"]
+    }
+  }
+}
+
