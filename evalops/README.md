@@ -11,8 +11,11 @@ This section is for evaluation design and operating practices: how to define suc
 
 ## Notes
 
-- Evaluation design (reverse from outcomes; Noiz summary, to verify): `notes/evaluation-design-for-reliable-ai-agents-noiz-summary.md`
-- Safety benchmarking (multimodal; Noiz summary, to verify): `notes/safety-benchmarking-testing-multimodal-llms-tianwei-zhang-noiz-summary.md`
-- DSPy / compound AI systems + optimization loop (Noiz summary, to verify): `notes/fireside-chat-dspy-creator-omar-khattab-noiz-summary.md`
-- Five hard-earned eval lessons (Braintrust; Noiz summary, to verify): `notes/five-hard-earned-lessons-about-evals-ankur-goyal-braintrust-noiz-summary.md`
-- Data quality + verifiers + scalable oversight (SurgeAI; Noiz summary, to verify): `notes/no-priors-124-surgeai-edwin-chen-data-quality-and-verifiers-noiz-summary.md`
+**[EvalOps Comprehensive Guide](notes/evalops-comprehensive-guide.md)** — Complete reference covering:
+- Outcome-first evaluation design
+- Data quality and synthetic data limitations
+- LLM-assisted evaluation
+- DSPy and compound AI systems
+- Context optimization
+- Safety benchmarking
+- Scalable oversight patterns

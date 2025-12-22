@@ -21,6 +21,16 @@ Best practices, checklists, and patterns for using AI assistants to **write, rev
 - `examples/` — small before/after examples and playbooks
 - `notes/` — links and summaries of learnings
 
+## Notes
+
+**[AI-Assisted Coding Comprehensive Guide](notes/AI-coding-comprehensive-guide.md)** — Complete reference covering:
+- Agent architecture patterns (sub-agents, parallel processing)
+- Retrieval for coding agents (when RAG helps vs hurts)
+- Testing and verification strategies
+- Code review evolution
+- Workflow patterns (Claude Code, Cursor)
+- Production realities and adoption risks
+
 ## Related Notes (In This Repo)
 
 - Context engineering for big codebases (“No vibes allowed”): `../retrieval-augmented-systems/notes/context-engineering-no-vibes-allowed.md`

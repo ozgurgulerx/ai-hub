@@ -49,5 +49,14 @@ Cross-cutting patterns that help interpret startup/company moves (funding dynami
 
 ## Notes
 
+**[AI Infrastructure Startups Guide](notes/AI-infrastructure-startups-guide.md)** — Consolidated profiles covering:
+- Surge AI (data quality, human evaluation)
+- Exa (web search for agents)
+- LanceDB (multimodal lakehouse)
+- turbopuffer (object-storage-first vector search)
+- Braintrust (EvalOps)
+- Harvey (legal AI)
+- Reducto (document ingestion)
+
 - If you want deeper writeups per company, add `ai-startups/notes/<startup>.md` and link it from the table.
   - Tooling-first entries should also capture the “layer” they sit in (grounding, vector store, ingestion, eval, safety, execution, inference).

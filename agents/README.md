@@ -143,4 +143,5 @@ OPENAI_API_KEY is honored as a fallback in some samples, but Azure settings are 
 
 ## Additional notes (in this repo)
 
+- **[AI Agents Comprehensive Guide](notes/agents-comprehensive-guide.md)** — Complete reference covering agent architecture, production requirements, multi-agent systems, context engineering, voice agents, customer-facing agents, and evaluation
 - Agent design “first principles” (agentic era, tool coupling, sub-agents, eval posture) — Noiz summary notes: `notes/first-principles-next-gen-agents-noiz-summary.md`

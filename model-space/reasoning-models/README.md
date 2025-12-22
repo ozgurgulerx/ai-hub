@@ -97,11 +97,14 @@ Suggested dimensions:
 
 ## Related Notes (In This Repo)
 
-- Automating discovery / novelty limits (Jakub Pachocki; Noiz summary, to verify): `notes/automating-discovery-jakub-pachocki-noiz-summary.md`
-- Reasoning “revealed vs added”, IO fine-tuning, self-consistency (Denny Zhou; Noiz summary, to verify): `notes/reason-denny-zhou-deepmind-noiz-summary.md`
-- Jagged intelligence + Verifier’s Law + agents era (Jason Wei; Noiz summary, to verify): `notes/jason-wei-3-key-ideas-in-ai-2025-noiz-summary.md`
-- Scaling intuitions + emergent abilities + benchmark needs (Jason Wei; Noiz summary, to verify): `notes/jason-wei-intuitions-about-large-language-models-noiz-summary.md`
-- GPT-5.1 reasoning, compaction, and long-running agents (Łukasz Kaiser; Noiz summary, to verify): `notes/whats-next-for-ai-openai-lukasz-kaiser-noiz-summary.md`
+**[Reasoning Models Comprehensive Guide](notes/reasoning-models-comprehensive-guide.md)** — Complete reference covering:
+- Chain-of-thought and RL for reasoning
+- Verifier's Law (capability ∝ verification ease)
+- Jagged edge of intelligence
+- Self-teaching and IO fine-tuning
+- Scaling and emergence
+- Long-running agents and compaction
+- Automating discovery limitations
 
 ## References (Starter List)
 
