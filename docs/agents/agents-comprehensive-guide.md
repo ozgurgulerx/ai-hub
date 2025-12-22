@@ -115,24 +115,127 @@ Multi-agent systems are distinct from sequential workflows by enabling paralleli
 
 ## Context Engineering for Agents
 
-### Beyond Documents
+> Context engineering isn't "more tokens = more intelligence". It's deciding, at each step, the **minimal effective context** the model actually needs to do the next thing well.
 
-Context expands beyond documents into:
-- Feedback loops
-- Planning tools
-- Environmental validation
-- Memory systems
+### The Core Problem
 
-### Sub-Agents for Context Management
+LLMs do one thing: `p(next tokens | context)`. If your context is:
+- **Too short** → model is blind (missing key facts/instructions)
+- **Too long or noisy** → important bits get diluted, cost explodes, behavior becomes unstable
 
-Sub-agents are an intentional way to manage context:
-- Code-based search
-- Thread summarization
-- Unit test generation
+**Minimal effective context** = "Given this step, what is the smallest conditional I can get away with?"
 
-### Memory Systems
+### Context Compaction vs Summarization
 
-Agent memory enables persistent user information for personalization, but is difficult to implement and evaluate because benefits are indirect.
+| Aspect | **Context Compaction** | **Context Summarization** |
+|--------|------------------------|---------------------------|
+| What it is | Move info outside prompt, keep handles/IDs | Rewrite many tokens into short abstraction |
+| Reversibility | Yes (via tools/DB) | No (you lose detail) |
+| Where full info lives | External (FS, DB, vector store) | Nowhere accessible unless also stored |
+| Goal | Reduce prompt size, keep exact info available | Improve signal-to-noise |
+| Examples | `read_file(path)` instead of pasting 2k lines | "User wants RAG agent with KV-cache routing" |
+
+**Apply compaction first (default):** Move code, long docs, old turns to external storage. Keep short references + tools to fetch on demand.
+
+**Apply summarization when:** You only care about state (not wording), hitting context rot even with compaction, or need stable small "world state" per turn.
+
+### Context Rot
+
+**Context rot** = accumulated junk from appended history + partial summaries + stale instructions that:
+- Buries true constraints/goals
+- Makes model follow accidental patterns instead of intended spec
+
+**Solution:** Don't keep appending raw logs. Periodically:
+1. Strip old turns out of live context
+2. Replace with short, curated summaries/state
+
+### Share Context by Communicating, Not Communicate by Sharing Context
+
+**Bad:** "I'll put the whole product spec + architecture doc + prior emails in the prompt and hope the model figures out what I want."
+
+**Good:** "I tell the model explicitly what matters about those artifacts, in language tuned to the task."
+
+**You are the compiler.** Don't outsource relevance decisions to the model by throwing 100-page PDFs into the prompt.
+
+### Keep the Toolset Small
+
+Every tool you expose is:
+- Extra surface area for failure
+- Extra tokens (tool descriptions)
+- Extra branching entropy
+
+**Heuristic:** Big tool menus → decision paralysis. Small, well-chosen tool sets → cleaner policy surface.
+
+**Compose systems instead:**
+- Top-level router agent with 2–4 big capabilities
+- Each capability may internally orchestrate more tools
+- LLM interface stays small per step
+
+### Agent-as-Tool Pattern
+
+Make agents themselves callable as tools with clear schemas:
+
+```
+Tool: research_agent
+  Input: { query: string, depth: "shallow" | "deep" }
+  Output: { findings: Finding[], confidence: number }
+
+Tool: planner_agent
+  Input: { goal: string, constraints: Constraint[] }
+  Output: { steps: Step[], risks: Risk[] }
+```
+
+To the top-level LLM, both are just tools with structured IO. Internal complexity lives inside that tool's sub-calls, not in the main conversation context.
+
+### Context Engineering Checklist
+
+1. **Stop auto-appending everything** — Maintain a `state` object and periodically summarize
+2. **Design "next-step context" as a function** — What does the model minimally need to decide the next action?
+3. **Shrink tools, deepen systems** — Fewer tools per agent; more layering between agents
+4. **Promote good sub-agents to first-class tools with strict schemas**
+5. **Narrate relevance to the model** — Don't just share documents; tell the model what matters for this step
+
+---
+
+## Agent Memory
+
+### When to Use
+
+Multi-step tasks with evolving user intent, preferences, or constraints.
+
+### Memory Architecture
+
+```
+Input → Scratchpad (ephemeral) → Tools
+      → Profile (long-term) → Ledger (task)
+```
+
+### Memory Types
+
+| Type | Purpose | Retention |
+|------|---------|-----------|
+| **Scratchpad** | Working memory for current task | Session |
+| **Task Ledger** | Progress, decisions, TODOs for current task | Task duration |
+| **Profile** | User preferences, history, context | Long-term |
+
+### Memory Pitfalls
+
+- Storing everything forever → privacy and drift
+- Missing expiry windows and provenance
+- No summarization with confidence and citations
+
+### Memory Checklist
+
+- [ ] Define memory types and retention windows
+- [ ] Source-of-truth + PII handling
+- [ ] Summarization with confidence and citations
+- [ ] Consent and expiry for governed profiles
+
+### Good–Better–Best
+
+- **Good:** Ephemeral scratchpad
+- **Better:** Task ledger with rollups
+- **Best:** Governed profile with consent and expiry
 
 ---
 

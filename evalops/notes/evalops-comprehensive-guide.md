@@ -162,6 +162,153 @@ Enable targeted questions:
 
 ---
 
+## Benchmark Stack (2025)
+
+### Classic Benchmarks (Sanity Checks)
+
+| Benchmark | Capability | Status |
+|-----------|------------|--------|
+| **MMLU** | 57-subject multi-choice exam | Near-saturated |
+| **GSM8K** | Grade-school math word problems | Near-saturated |
+| **BIG-Bench Hard** | Diverse quirky reasoning tasks | Still useful |
+| **HumanEval / MBPP** | Toy code synthesis | Near-saturated |
+
+### Frontier Reasoning Benchmarks
+
+| Benchmark | What It Tests | Why It Matters |
+|-----------|---------------|----------------|
+| **HLE (Humanity's Last Exam)** | 2.5K+ expert-level, multi-domain questions | Broad expert reasoning under exam pressure |
+| **GPQA Diamond** | 198 PhD-level science MCQs (bio/chem/physics) | Deep graduate-level scientific reasoning |
+| **ARC-AGI-2** | Grid-based pattern puzzles | Abstract pattern formation—"fluid intelligence" proxy |
+| **FrontierMath** | Competition-style hard math | Long, brittle chains of symbolic reasoning |
+
+**For slides/model cards:** HLE, GPQA-Diamond, ARC-AGI-2 (still report MMLU, GSM8K for continuity)
+
+### Framing for Communication
+
+- **"Old layer"** — MMLU, GSM8K, HumanEval → "Can it pass standard exams and write toy code?"
+- **"New layer"** — HLE, GPQA-Diamond, ARC-AGI-2, FrontierMath → "Can it handle grad-level science and human-style pattern abstraction without overfitting to old benchmarks?"
+
+---
+
+## RAG Evaluation
+
+### Key Metrics
+
+- **Contextual recall** — Does the answer include important facts from retrieval?
+- **Contextual precision** — Does it avoid introducing unsupported details?
+- **Faithfulness** — How well does the model stick to retrieved facts?
+
+### Hallucination Detection Tools
+
+| Tool | Description |
+|------|-------------|
+| **HHEM (Vectara)** | Open-source classifier for factual inconsistency detection |
+| **LettuceDetect** | Token-level hallucination detector for RAG |
+| **SelfCheckGPT** | Self-consistency method (query multiple times, flag variance) |
+
+### LLM-as-Judge
+
+Use strong models (GPT-4) to critique outputs against known facts/references. Research shows LLMs approximate human judgment well for factual accuracy.
+
+---
+
+## Robustness and Adversarial Testing
+
+### Adversarial Prompt Testing
+
+Include in eval suite:
+- Prompt injection attacks
+- Jailbreak prompts
+- Input perturbations (typos, slang, out-of-distribution)
+- Multi-turn consistency checks
+
+### Red-Teaming Platforms
+
+Frameworks like DeepTeam provide:
+- Libraries of known exploits
+- Plug-and-play adversarial test cases
+- OWASP Top 10–style vulnerability coverage
+
+### Agent Evaluation
+
+For tool-using agents:
+- Task completion rate
+- Tool selection correctness
+- Efficient sequence of steps
+- Recovery from failures
+
+---
+
+## Trust and Safety Metrics
+
+### Responsible AI Checks
+
+| Metric | Implementation |
+|--------|----------------|
+| **Toxicity** | Detoxify (BERT-based), OpenAI content filter |
+| **Bias** | Scan for racial, gender, political bias |
+| **Policy compliance** | Refusal rate when appropriate |
+
+### Trust & Safety Test Sets
+
+Maintain collections of prompts for:
+- Self-harm
+- Medical/legal advice
+- Personal data
+- Policy edge cases
+
+Verify model outputs comply with guidelines for each case.
+
+---
+
+## Integration into Development Lifecycle
+
+### Continuous Evaluation Pipelines
+
+Run evaluations on each model build or prompt change:
+```bash
+deepeval test run llm_tests/
+```
+
+If any eval test fails (e.g., hallucination rate increased), block the update.
+
+### Regression and A/B Testing
+
+Side-by-side comparisons via evaluation suites:
+- Incumbent vs candidate model
+- Large eval set covering various dimensions
+- Detailed reports showing where one model is better/worse
+
+### LLM Observability
+
+Production monitoring:
+- Log inputs/outputs
+- Compute metrics in real time
+- Dashboard drift and anomalies
+- Feed problematic cases back into training
+
+### Human-in-the-Loop Refinement
+
+- User ratings (thumbs up/down)
+- Domain expert review for borderline cases
+- RLHF as evaluation-driven training
+
+---
+
+## Tools and Platforms
+
+| Tool | Focus |
+|------|-------|
+| **OpenAI Evals** | Open-source eval framework with community tasks |
+| **EleutherAI LM Eval Harness** | Zero/few-shot evaluation on academic benchmarks |
+| **DeepEval** | LLM "unit tests" with CI integration |
+| **LangSmith** | Trace LLM calls and measure performance |
+| **Arize Phoenix** | Open-source observability for LLM decisions |
+| **Guardrails AI** | Output validation and policy enforcement |
+
+---
+
 ## Safety Benchmarking
 
 ### Infrastructure Requirements

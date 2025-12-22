@@ -138,5 +138,9 @@ nav:
     - Overview: ai-startups/index.md
     - Infrastructure Guide: ai-startups/AI-infrastructure-startups-guide.md
   
+  - AI UX:
+    - Overview: ai-ux/index.md
+    - Comprehensive Guide: ai-ux/AI-UX-comprehensive-guide.md
+  
   - AI Security:
     - Overview: ai-security/index.md
