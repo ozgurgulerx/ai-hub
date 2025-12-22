@@ -15,7 +15,7 @@ Optional (for garak + PyRIT):
 Terminal 1:
 
 ```bash
-python3 apps/vuln_rag_agent/server.py --port 8000
+python3 lab/apps/vuln_rag_agent/server.py --port 8000
 ```
 
 Smoke check:
@@ -33,20 +33,20 @@ Option A (no sockets required): run the harness in-process
 Vulnerable mode:
 
 ```bash
-python3 eval/harness/run_baseline.py --transport local --mode vuln --out eval/baseline_metrics.vuln.json
+python3 lab/eval/harness/run_baseline.py --transport local --mode vuln --out lab/eval/baseline_metrics.vuln.json
 ```
 
 With two defenses enabled (tool gate + retrieval firewall):
 
 ```bash
-python3 eval/harness/run_baseline.py --transport local --mode defended --out eval/baseline_metrics.defended.json
+python3 lab/eval/harness/run_baseline.py --transport local --mode defended --out lab/eval/baseline_metrics.defended.json
 ```
 
 Option B (HTTP): run against a live server (useful for external scanners)
 
 ```bash
-python3 eval/harness/run_baseline.py --transport http --start-server --mode vuln --out eval/baseline_metrics.vuln.json
-python3 eval/harness/run_baseline.py --transport http --start-server --mode defended --out eval/baseline_metrics.defended.json
+python3 lab/eval/harness/run_baseline.py --transport http --start-server --mode vuln --out lab/eval/baseline_metrics.vuln.json
+python3 lab/eval/harness/run_baseline.py --transport http --start-server --mode defended --out lab/eval/baseline_metrics.defended.json
 ```
 
 ## 3) Optional: run garak + PyRIT
@@ -63,23 +63,23 @@ More details + suggested workflow: `docs/day001/red-teaming-tools.md`
 Install red-team tooling:
 
 ```bash
-python3 -m pip install -r tools/requirements-redteam.txt
+python3 -m pip install -r lab/tools/requirements-redteam.txt
 ```
 
 Run garak:
 
 ```bash
-bash tools/run_garak.sh
+bash lab/tools/run_garak.sh
 ```
 
 Run PyRIT (skeleton runner; expand Day002+):
 
 ```bash
-bash tools/run_pyrit.sh
+bash lab/tools/run_pyrit.sh
 ```
 
 ## 4) Write Day001 artifacts
 
 - Threat matrix: `docs/day001/threat-matrix.md`
 - Lit review notes: `notes/day001_lit_review.md`
-- Baseline report: `reports/day001_baseline.md`
+- Baseline report: `lab/reports/day001_baseline.md`

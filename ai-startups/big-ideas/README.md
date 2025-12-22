@@ -36,3 +36,4 @@ Add new ideas below as you create them:
 | Google’s R&D culture foundations (Sergey Brin) | Speculative | PageRank, R&D, AI philosophy | `sergey-brin-big-ideas-begin-here-stanford-noiz-summary.md` |
 | Analog computing for AGI (energy/dynamics) | Speculative | Efficiency thesis, ODE mapping | `the-chip-that-could-unlock-agi-analog-computing-noiz-summary.md` |
 | Gradient descent won’t generalize (Sutton) | Speculative | Critique: “solution finding” ≠ generalization; limits for science | `gradient-descent-wont-make-you-generalize-richard-sutton-noiz-summary.md` |
+| The “Year of Agents” (Wu) | Speculative | Deployment barriers, cost curves, adoption triggers | `the-year-of-agents-sherwin-wu-noiz-summary.md` |

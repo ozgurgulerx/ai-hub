@@ -1,6 +1,6 @@
 # Day001 — Red-Teaming Tools (Garak + PyRIT)
 
-Day001’s `eval/harness/` is an internal, deterministic harness for measuring *this repo’s* attack packs and defenses.
+Day001’s `lab/eval/harness/` is an internal, deterministic harness for measuring *this repo’s* attack packs and defenses.
 `garak` and `PyRIT` are optional external tools that help you do broader, adversarial exploration (“red teaming”) against either a raw model endpoint or an app.
 
 ## PyRIT (Python Risk Identification Tool)
@@ -31,16 +31,16 @@ PyRIT is an open-source Python framework for red teaming GenAI systems. It’s u
 
 ### Using PyRIT against the Day001 app in this repo
 
-The Day001 app is `apps/vuln_rag_agent/server.py` with a `POST /chat` endpoint. To use PyRIT here, the usual pattern is:
+The Day001 app is `lab/apps/vuln_rag_agent/server.py` with a `POST /chat` endpoint. To use PyRIT here, the usual pattern is:
 
-- Run the server locally (`python3 apps/vuln_rag_agent/server.py --port 8000`).
+- Run the server locally (`python3 lab/apps/vuln_rag_agent/server.py --port 8000`).
 - Create a small “target adapter” that takes a prompt string and calls:
   - `POST http://127.0.0.1:8000/chat`
   - JSON body like:
     - `{"message": "<prompt>", "use_rag": true|false, "authenticated_customer_id": "1001"}`
 - Feed that adapter into your PyRIT run/campaign and choose the prompt sets/strategies you want to exercise.
 
-This repo intentionally does **not** ship a full PyRIT integration yet (APIs evolve; Day001 focuses on the internal harness). Use `tools/run_pyrit.sh` as an install/smoke-check, then wire PyRIT to either your model provider or the app endpoint as described above.
+This repo intentionally does **not** ship a full PyRIT integration yet (APIs evolve; Day001 focuses on the internal harness). Use `lab/tools/run_pyrit.sh` as an install/smoke-check, then wire PyRIT to either your model provider or the app endpoint as described above.
 
 ## garak
 
@@ -48,7 +48,6 @@ This repo intentionally does **not** ship a full PyRIT integration yet (APIs evo
 
 In this repo:
 
-- Install: `python3 -m pip install -r tools/requirements-redteam.txt`
-- Run: `bash tools/run_garak.sh`
-- Outputs: `eval/out/garak/` (configurable via `OUT_DIR`)
-
+- Install: `python3 -m pip install -r lab/tools/requirements-redteam.txt`
+- Run: `bash lab/tools/run_garak.sh`
+- Outputs: `lab/eval/out/garak/` (configurable via `OUT_DIR`)

@@ -17,7 +17,7 @@ Some material references a local PDF (`/Users/ozgurguler/Downloads/2511 RAG Opti
 Day001 adds a deliberately vulnerable RAG+tool mini-app plus an attack harness so you can measure security regressions.
 
 ```bash
-python3 eval/harness/run_attack_pack.py --compare
+python3 lab/eval/harness/run_attack_pack.py --compare
 ```
 
 Start here: `docs/day001/README.md`

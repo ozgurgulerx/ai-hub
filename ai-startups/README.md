@@ -21,6 +21,7 @@ Add one row per startup:
 | turbopuffer | Retrieval / RAG / memory | Object-storage-first vector + hybrid search (cache-heavy) | Makes billion/trillion-scale vector storage economically plausible; adds filtering/facets/aggs | `notes/turbopuffer.md`, `https://turbopuffer.com/`, `https://youtu.be/l2N4DT35PKg` | Unverified |
 | Braintrust | EvalOps / safety evals | Eval + observability platform for LLM apps | Makes evaluation and iteration repeatable; turns “vibes” into measured engineering | `notes/braintrust.md`, `https://www.braintrust.dev/` | Unverified |
 | Surge AI | Data tooling (labeling / RHF / eval) | High-quality human data + evals/rubrics/verifiers for frontier model training | Human “taste” and domain expertise as a bottleneck for alignment, evals, and RL environments | `notes/surge-ai.md`, `https://youtu.be/dduQeaqmpnI` | Unverified |
+| Harvey | Enterprise apps (legal) | Legal workflow platform (law firm ↔ client) | Packaging firm expertise into repeatable playbooks could shift legal work from bespoke drafting to scalable guidance | `notes/harvey.md`, `https://youtu.be/1fDsj6ymQ9s` | Unverified |
 
 ## Categories (Suggested)
 
