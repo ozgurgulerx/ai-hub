@@ -20,9 +20,9 @@ This note distills claims from a **Noiz** YouTube transcript/summary provided in
 
 ### Chunking strategy
 
-- Chunking too small can dilute context.
-- Keeping “bad chunks” introduces noise.
+- Chunking is described as a major lever: too small dilutes context, too noisy introduces distractors.
 - Recommended focus: chunk by semantic boundaries and keep related context together.
+- Deep dive on chunking principles + evaluation: `chunking-strategy-fundamentals-noiz-summary.md`
 
 ## Retrieval optimization (claims)
 

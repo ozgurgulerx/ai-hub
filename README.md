@@ -54,13 +54,15 @@ ai-hub/
 ├── ai-security-and-governance/     # Security, risk, compliance
 ├── ai-startups/                    # Curated AI startup landscape
 ├── diffusion-models/               # Diffusion models (incl. text/sequence research)
-├── graph-ml/                       # Graph ML (GraphML) & GNNs
+├── Graph-ML/                       # Graph ML (GraphML) & GNNs
 ├── inference-engineering/          # Latency, cost, performance
 ├── reasoning-models/               # Reasoning LLMs & techniques
 ├── reinforcement-learning/         # RLFT, DPO, PPO, GRPO
 ├── retrieval-augmented-systems/    # RAG, Hybrid, GraphRAG
 ├── small-language-models/          # SLMs: small LMs, training notes
 ├── state-space-models/             # SSMs as alternative sequence architectures
+├── causal-ml/                      # Causal inference & causal ML
+├── multi-modal-AI/                 # Multimodal AI (text+vision+audio+video)
 ├── workshops/                      # End-to-end guided workshops
 ├── conference-notes-microsoft-ignite-2025/
 ├── assets/                         # Diagrams, visuals, figures

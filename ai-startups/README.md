@@ -19,6 +19,7 @@ Add one row per startup:
 | LanceDB | Retrieval / RAG / memory | Vector DB / “multimodal lakehouse” built on the Lance format | Single store for vectors + large blob data; claims focus on random-access + multimodal scale | `notes/lancedb.md`, `https://lancedb.com/`, `https://youtu.be/y5g7u3sWyrk` | Unverified |
 | Reducto | Data tooling (ingestion) | Document ingestion/extraction for RAG (tables, layouts, spreadsheets) | “Better data” can dominate RAG quality; ingestion errors amplify downstream | `notes/reducto.md`, `https://youtu.be/DS4w1CMGJes` | Unverified |
 | turbopuffer | Retrieval / RAG / memory | Object-storage-first vector + hybrid search (cache-heavy) | Makes billion/trillion-scale vector storage economically plausible; adds filtering/facets/aggs | `notes/turbopuffer.md`, `https://turbopuffer.com/`, `https://youtu.be/l2N4DT35PKg` | Unverified |
+| Braintrust | EvalOps / safety evals | Eval + observability platform for LLM apps | Makes evaluation and iteration repeatable; turns “vibes” into measured engineering | `notes/braintrust.md`, `https://www.braintrust.dev/` | Unverified |
 
 ## Categories (Suggested)
 

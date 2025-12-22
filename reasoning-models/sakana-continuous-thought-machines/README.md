@@ -57,7 +57,7 @@ Continuous Thought Machines (CTM) are presented as an approach to improve “rea
 
 - Reasoning model compare/contrast scaffold: `../README.md`
 - Alternative architectures: `../../state-space-models/` and `../../diffusion-models/` (adjacent “non-transformer” directions)
-- Graph ML (if CTM uses temporal synchronization representations): `../../graph-ml/README.md` [Inference]
+- Graph ML (if CTM uses temporal synchronization representations): `../../Graph-ML/README.md` [Inference]
 
 ## Appendix: Raw Notes (Preserved)
 
