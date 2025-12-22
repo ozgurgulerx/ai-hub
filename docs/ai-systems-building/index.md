@@ -9,3 +9,4 @@ Reusable patterns for building AI systems.
 | **[RAG](rag/index.md)** | Retrieval-augmented generation |
 | **[Agents](agents/index.md)** | Agent architecture, MCP protocol |
 | **[EvalOps](evalops/index.md)** | Evaluation operations |
+| **[Inference Engineering](inference-engineering/index.md)** | Serving, optimization |

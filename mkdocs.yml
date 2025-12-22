@@ -121,6 +121,8 @@ nav:
     - EvalOps:
       - Overview: ai-systems-building/evalops/index.md
       - Comprehensive Guide: ai-systems-building/evalops/evalops-comprehensive-guide.md
+    - Inference Engineering:
+      - Overview: ai-systems-building/inference-engineering/index.md
   
   - AI Product:
     - Overview: ai-product/index.md
