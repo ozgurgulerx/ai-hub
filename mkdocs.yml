@@ -157,3 +157,7 @@ nav:
   
   - AI Security & Governance:
     - Overview: ai-security-and-governance/index.md
+    - Agent Governance: ai-security-and-governance/agent-governance/index.md
+    - AI Governance: ai-security-and-governance/ai-governance/index.md
+    - MCP Security: ai-security-and-governance/mcp-security/index.md
+    - Privacy: ai-security-and-governance/privacy/index.md
