@@ -1,5 +1,7 @@
 # AI Hub
 
+![AI-Hub cover](assets/ai-hub-hero.png)
+
 > AI HUB builder content for Azure AI enablement, curated end-to-end workshop flow.
 
 ## Azure AI Enablement Workshops
