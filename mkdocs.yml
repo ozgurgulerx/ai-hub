@@ -109,18 +109,18 @@ extra:
 nav:
   - Home: index.md
   
-  - RAG & Retrieval:
-    - Overview: retrieval-augmented-systems/index.md
-    - Comprehensive Guide: retrieval-augmented-systems/RAG-comprehensive-guide.md
-  
-  - Agents:
-    - Overview: agents/index.md
-    - Comprehensive Guide: agents/agents-comprehensive-guide.md
-    - MCP Protocol: agents/MCP-comprehensive-guide.md
-  
-  - AI Coding:
-    - Overview: ai-coding/index.md
-    - Comprehensive Guide: ai-coding/AI-coding-comprehensive-guide.md
+  - Systems:
+    - Overview: systems/index.md
+    - RAG:
+      - Overview: systems/rag/index.md
+      - Comprehensive Guide: systems/rag/RAG-comprehensive-guide.md
+    - Agents:
+      - Overview: systems/agents/index.md
+      - Comprehensive Guide: systems/agents/agents-comprehensive-guide.md
+      - MCP Protocol: systems/agents/MCP-comprehensive-guide.md
+    - EvalOps:
+      - Overview: systems/evalops/index.md
+      - Comprehensive Guide: systems/evalops/evalops-comprehensive-guide.md
   
   - AI Product:
     - Overview: ai-product/index.md
@@ -134,10 +134,6 @@ nav:
       - Overview: ai-product/startups/index.md
       - Infrastructure Guide: ai-product/startups/AI-infrastructure-startups-guide.md
   
-  - EvalOps:
-    - Overview: evalops/index.md
-    - Comprehensive Guide: evalops/evalops-comprehensive-guide.md
-  
   - Model Space:
     - Overview: model-space/index.md
     - Reasoning Models: model-space/reasoning-models-comprehensive-guide.md
@@ -145,14 +141,18 @@ nav:
   - Inference Engineering:
     - Overview: inference-engineering/index.md
   
-  - Reinforcement Learning:
-    - Overview: reinforcement-learning/index.md
+  - Advanced AI Systems:
+    - Overview: advanced-ai-systems/index.md
+    - Graph ML: advanced-ai-systems/graph-ml/index.md
+    - Causal ML: advanced-ai-systems/causal-ml/index.md
+    - Reinforcement Learning: advanced-ai-systems/reinforcement-learning/index.md
+  
+  - AI Coding:
+    - Overview: ai-coding/index.md
+    - Comprehensive Guide: ai-coding/AI-coding-comprehensive-guide.md
   
   - AI for Science:
     - Overview: ai-for-science/index.md
-  
-  - Causal ML:
-    - Overview: causal-ml/index.md
   
   - AI Security & Governance:
     - Overview: ai-security-and-governance/index.md
