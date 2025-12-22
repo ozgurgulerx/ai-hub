@@ -33,13 +33,12 @@ jobs:
       - name: Sync docs from originals
         run: |
           # Copy comprehensive guides from original locations to docs/
-          cp systems/retrieval-augmented-systems/notes/RAG-comprehensive-guide.md docs/systems/rag/
-          cp systems/agents/notes/agents-comprehensive-guide.md docs/systems/agents/
-          cp systems/agents/agent-protocols/mcp/MCP-comprehensive-guide.md docs/systems/agents/
-          cp systems/evalops/notes/evalops-comprehensive-guide.md docs/systems/evalops/
+          cp ai-systems-building/retrieval-augmented-systems/notes/RAG-comprehensive-guide.md docs/ai-systems-building/rag/
+          cp ai-systems-building/agents/notes/agents-comprehensive-guide.md docs/ai-systems-building/agents/
+          cp ai-systems-building/agents/agent-protocols/mcp/MCP-comprehensive-guide.md docs/ai-systems-building/agents/
+          cp ai-systems-building/evalops/notes/evalops-comprehensive-guide.md docs/ai-systems-building/evalops/
           cp ai-coding/notes/AI-coding-comprehensive-guide.md docs/ai-coding/
           cp ai-product/strategy/notes/AI-product-strategy-comprehensive-guide.md docs/ai-product/strategy/
-          cp model-space/reasoning-models/notes/reasoning-models-comprehensive-guide.md docs/model-space/
           cp ai-product/startups/notes/AI-infrastructure-startups-guide.md docs/ai-product/startups/
           cp ai-product/ux/notes/AI-UX-comprehensive-guide.md docs/ai-product/ux/
       

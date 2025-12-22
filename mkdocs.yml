@@ -109,18 +109,18 @@ extra:
 nav:
   - Home: index.md
   
-  - Systems:
-    - Overview: systems/index.md
+  - AI Systems Building:
+    - Overview: ai-systems-building/index.md
     - RAG:
-      - Overview: systems/rag/index.md
-      - Comprehensive Guide: systems/rag/RAG-comprehensive-guide.md
+      - Overview: ai-systems-building/rag/index.md
+      - Comprehensive Guide: ai-systems-building/rag/RAG-comprehensive-guide.md
     - Agents:
-      - Overview: systems/agents/index.md
-      - Comprehensive Guide: systems/agents/agents-comprehensive-guide.md
-      - MCP Protocol: systems/agents/MCP-comprehensive-guide.md
+      - Overview: ai-systems-building/agents/index.md
+      - Comprehensive Guide: ai-systems-building/agents/agents-comprehensive-guide.md
+      - MCP Protocol: ai-systems-building/agents/MCP-comprehensive-guide.md
     - EvalOps:
-      - Overview: systems/evalops/index.md
-      - Comprehensive Guide: systems/evalops/evalops-comprehensive-guide.md
+      - Overview: ai-systems-building/evalops/index.md
+      - Comprehensive Guide: ai-systems-building/evalops/evalops-comprehensive-guide.md
   
   - AI Product:
     - Overview: ai-product/index.md
@@ -134,28 +134,19 @@ nav:
       - Overview: ai-product/startups/index.md
       - Infrastructure Guide: ai-product/startups/AI-infrastructure-startups-guide.md
   
-  - Model Space:
-    - Overview: model-space/index.md
-    - Reasoning Models: model-space/reasoning-models-comprehensive-guide.md
+  - AI Systems Advanced:
+    - Overview: ai-systems-advanced/index.md
+    - Graph ML: ai-systems-advanced/graph-ml/index.md
+    - Causal ML: ai-systems-advanced/causal-ml/index.md
+    - Reinforcement Learning: ai-systems-advanced/reinforcement-learning/index.md
+    - AI for Science: ai-systems-advanced/ai-for-science/index.md
   
-  - Inference Engineering:
-    - Overview: inference-engineering/index.md
-  
-  - Advanced AI Systems:
-    - Overview: advanced-ai-systems/index.md
-    - Graph ML: advanced-ai-systems/graph-ml/index.md
-    - Causal ML: advanced-ai-systems/causal-ml/index.md
-    - Reinforcement Learning: advanced-ai-systems/reinforcement-learning/index.md
+  - AI Model Space:
+    - Overview: ai-model-space/index.md
   
   - AI Coding:
     - Overview: ai-coding/index.md
     - Comprehensive Guide: ai-coding/AI-coding-comprehensive-guide.md
   
-  - AI for Science:
-    - Overview: ai-for-science/index.md
-  
   - AI Security & Governance:
     - Overview: ai-security-and-governance/index.md
-  
-  - Model APIs:
-    - Overview: model-apis/index.md
