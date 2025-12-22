@@ -1,4 +1,4 @@
-# ai-security-ozg
+# ai-security-and-governance
 
 My work on AI security methods and everything on AI security.
 

@@ -1,13 +1,13 @@
-# rl-ozg
+# reinforcement-learning
 
 ![Status](https://img.shields.io/badge/status-WIP-yellow)
 ![License](https://img.shields.io/badge/license-TBD-lightgrey)
-![Repo size](https://img.shields.io/github/repo-size/<OWNER>/rl-ozg)
-![Last commit](https://img.shields.io/github/last-commit/<OWNER>/rl-ozg)
-![Issues](https://img.shields.io/github/issues/<OWNER>/rl-ozg)
-![Stars](https://img.shields.io/github/stars/<OWNER>/rl-ozg)
-![Forks](https://img.shields.io/github/forks/<OWNER>/rl-ozg)
-![Contributors](https://img.shields.io/github/contributors/<OWNER>/rl-ozg)
+![Repo size](https://img.shields.io/github/repo-size/ozgurgulerx/ai-hub)
+![Last commit](https://img.shields.io/github/last-commit/ozgurgulerx/ai-hub)
+![Issues](https://img.shields.io/github/issues/ozgurgulerx/ai-hub)
+![Stars](https://img.shields.io/github/stars/ozgurgulerx/ai-hub)
+![Forks](https://img.shields.io/github/forks/ozgurgulerx/ai-hub)
+![Contributors](https://img.shields.io/github/contributors/ozgurgulerx/ai-hub)
 
 > Learning log and experiments around reinforcement learning for LLMs, world models, and multimodal agents.
 
@@ -28,7 +28,7 @@
 ## Repo map
 
 ```
-rl-ozg/
+reinforcement-learning/
 ├─ days/
 │  ├─ Day01/  # RLFT/RFT on Azure AI Foundry
 │  ├─ Day02/  # DPO + PPO (Azure DPO + PPO baseline)

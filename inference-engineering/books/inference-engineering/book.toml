@@ -12,9 +12,9 @@ create-missing = false
 [output.html]
 default-theme = "navy"
 preferred-dark-theme = "navy"
-git-repository-url = "https://github.com/ozgurgulerx/inference-journal"
+git-repository-url = "https://github.com/ozgurgulerx/ai-hub"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/ozgurgulerx/inference-journal/edit/main/books/inference-engineering/{path}"
+edit-url-template = "https://github.com/ozgurgulerx/ai-hub/edit/main/inference-engineering/books/inference-engineering/{path}"
 
 [output.html.fold]
 enable = true
