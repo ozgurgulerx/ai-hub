@@ -2,6 +2,13 @@
 
 ![AI-Hub cover](assets/ai-hub-hero.png)
 
+![CI](https://github.com/ozgurgulerx/ai-hub/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/ozgurgulerx/ai-hub)
+![Last Commit](https://img.shields.io/github/last-commit/ozgurgulerx/ai-hub)
+![Workshops](https://img.shields.io/badge/workshops-9-blue)
+![Platform: Azure](https://img.shields.io/badge/platform-azure-0072C6)
+![Type: Learning Hub](https://img.shields.io/badge/type-learning--hub-5e4bff)
+
 > AI HUB builder content for Azure AI enablement, curated end-to-end workshop flow.
 
 ## Azure AI Enablement Workshops
