@@ -1,7 +1,0 @@
-__pycache__/
-*.pyc
-.DS_Store
-
-apps/vuln_rag_agent/logs/
-eval/harness/tmp/
-

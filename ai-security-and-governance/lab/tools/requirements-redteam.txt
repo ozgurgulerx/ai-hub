@@ -1,4 +1,0 @@
-# Optional Day001 tooling (requires network/package install)
-garak>=0.10.0
-pyrit>=0.4.0
-

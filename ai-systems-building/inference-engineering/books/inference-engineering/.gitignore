@@ -1,8 +1,0 @@
-# mdBook build output
-book/
-
-# Editor files
-*.swp
-*.swo
-*~
-.DS_Store

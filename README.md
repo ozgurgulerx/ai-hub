@@ -47,30 +47,21 @@ Think of it as:
 
 ## Repository structure
 
+All content lives under `docs/` (the MkDocs source). Browse the docs site or explore `docs/` directly.
+
 ```text
 ai-hub/
-├── ai-coding/                      # AI-assisted coding best practices
-├── ai-for-science/                 # AI for science (biomed, proteins, etc.)
-├── ai-products/                    # Product thinking for AI systems
-├── ai-hardware/                    # GPUs, accelerators, serving hardware
-├── ai-security-and-governance/     # Security, risk, compliance
-├── ai-startups/                    # Curated AI startup landscape
-├── evalops/                        # Evaluation design + EvalOps notes
-├── Graph-ML/                       # Graph ML (GraphML) & GNNs
-├── inference-engineering/          # Latency, cost, performance
-├── model-apis/                     # Provider APIs (Responses, tool calling, caching)
-├── reinforcement-learning/         # RLFT, DPO, PPO, GRPO
-├── retrieval-augmented-systems/    # RAG, Hybrid, GraphRAG
-├── causal-ml/                      # Causal inference & causal ML
-├── model-space/                    # Model families + alternative architectures
-│   ├── diffusion-models/           # Diffusion models (incl. text/sequence research)
-│   ├── reasoning-models/           # Reasoning LLMs & techniques
-│   ├── small-language-models/      # SLMs: small LMs, training notes
-│   ├── state-space-models/         # SSMs as alternative sequence architectures
-│   ├── multi-modal-models/         # Multimodal models (text+vision+audio+video)
-│   └── world-models/               # World models for planning/control
-├── workshops/                      # End-to-end guided workshops
-├── conference-notes-microsoft-ignite-2025/
+├── docs/                           # All documentation (MkDocs source)
+│   ├── ai-coding/                  # AI-assisted coding best practices
+│   ├── ai-hardware/                # GPUs, accelerators, serving hardware
+│   ├── ai-model-space/             # Model families + alternative architectures
+│   ├── ai-products/                # Product thinking, strategy, startups
+│   ├── ai-security-and-governance/ # Security, risk, compliance
+│   ├── ai-systems-advanced/        # Graph ML, Causal ML, RL, AI for Science
+│   ├── ai-systems-building/        # RAG, Agents, Inference Engineering
+│   ├── ai-systems-ops/             # EvalOps, Observability
+│   └── quantum-tech/               # Quantum computing, networking, sensing
+├── mkdocs.yml                      # MkDocs configuration
 ├── assets/                         # Diagrams, visuals, figures
 ```
 

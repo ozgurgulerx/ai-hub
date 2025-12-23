@@ -1,5 +1,0 @@
-openai
-agent-framework
-azure-identity
-python-dotenv
-azure-search-documents
