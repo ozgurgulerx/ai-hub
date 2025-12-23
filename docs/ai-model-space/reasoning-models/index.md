@@ -17,6 +17,7 @@ LLMs that exhibit reasoning behavior: multi-step problem solving, structured del
 | **[GPT-5](gpt-5/index.md)** | Code quality, agentic reliability |
 | **[Kimi K2](kimi-k2/index.md)** | Long context, Chinese+English |
 | **[MiniMax M2](minimax2/index.md)** | Efficiency, self-hosted |
+| **[OLMo](olmo/index.md)** | Transparent training reports, architecture notes |
 | **[Sakana CTM](sakana-ctm/index.md)** | Temporal reasoning, backtracking |
 
 ## Key Methods

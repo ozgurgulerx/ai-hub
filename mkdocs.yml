@@ -178,6 +178,7 @@ nav:
       - GPT-5: ai-model-space/reasoning-models/gpt-5/index.md
       - Kimi K2: ai-model-space/reasoning-models/kimi-k2/index.md
       - MiniMax2: ai-model-space/reasoning-models/minimax2/index.md
+      - OLMo: ai-model-space/reasoning-models/olmo/index.md
       - Sakana CTM: ai-model-space/reasoning-models/sakana-ctm/index.md
       - Notes:
         - Comprehensive Guide: ai-model-space/reasoning-models/notes/reasoning-models-comprehensive-guide.md
