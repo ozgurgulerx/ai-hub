@@ -27,4 +27,3 @@ Status: **To verify**
 - Switching costs can come from customized workflows, long pilot cycles, and large contracts that make changing expensive. [Unverified]
 - Workforce displacement: effective agents can reduce headcount needs; this may reduce revenue for service-based businesses (warning). [Unverified]
 - Speed remains crucial when solving “existential pain” (urgent stakes, rapid change). [Unverified]
-

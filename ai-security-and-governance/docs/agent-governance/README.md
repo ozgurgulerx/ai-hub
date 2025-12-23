@@ -53,5 +53,5 @@ This folder focuses on governance for agents that can:
 
 Related:
 - MCP security notes: `../mcp-security/README.md`
-- Product note (deterministic “agent builder” pattern; claims to verify): `../../../ai-product-strategy/notes/openai-800m-weekly-users-specialization-rft-agents-noiz-summary.md`
+- Product note (deterministic “agent builder” pattern; claims to verify): `../../../ai-products/strategy/README.md`
 - Zero-click attacks and agent amplification (Noiz summary, to verify): `zero-click-attacks-ai-agents-noiz-summary.md`

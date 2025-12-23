@@ -30,4 +30,3 @@ Status: **Speculative / Unverified**
 - Code evaluation service applies generated code to pre-warmed builds; checks compilation/tests over months.
 - Sidecar app “Aid” integrates models with editors (VS Code, Neovim, Emacs) allowing model/strategy swaps without editor modifications.
 - End-to-end loop: collect quality training data → build meaningful evals → ship workflow-fit tools.
-

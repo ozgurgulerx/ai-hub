@@ -12,4 +12,3 @@ Status: **To verify**
 - **Signals to watch**: Pricing moves, distribution channels, enterprise adoption patterns, and safety/regulatory posture. [Inference]
 - **Startups**: (Add startups that embody these theses.) [Inference]
 - **References**: https://youtu.be/GcqQ1ebBqkc
-

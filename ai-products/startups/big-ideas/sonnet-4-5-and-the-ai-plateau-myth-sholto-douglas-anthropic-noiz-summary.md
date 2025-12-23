@@ -37,4 +37,3 @@ This file captures **claims and theses** attributed to the talk summary. Treat b
 - AI coding (agents, workflow quality, evals): `../../ai-coding/README.md`
 - EvalOps (rapid iteration and evaluation engineering): `../../evalops/README.md`
 - Reasoning models notes: `../../model-space/reasoning-models/README.md`
-

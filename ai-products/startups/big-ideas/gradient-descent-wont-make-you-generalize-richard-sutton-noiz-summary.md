@@ -16,4 +16,3 @@ Status: **To verify**
 ## Human-in-the-Loop Framing (Claims)
 
 - LLM improvements in coding abstraction/architecture are framed as stemming from human involvement in the process rather than algorithms inherently promoting generalization. [Unverified]
-

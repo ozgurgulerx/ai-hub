@@ -128,17 +128,24 @@ nav:
       - Comprehensive Guide: ai-systems-ops/evalops/evalops-comprehensive-guide.md
     - Observability: ai-systems-ops/observability/index.md
   
-  - AI Product:
-    - Overview: ai-product/index.md
+  - AI Hardware:
+    - Overview: ai-hardware/index.md
+  
+  - Quantum Tech:
+    - Overview: quantum-tech/index.md
+    - Coverage Guide: quantum-tech/coverage-guide.md
+  
+  - AI Products:
+    - Overview: ai-products/index.md
     - Strategy:
-      - Overview: ai-product/strategy/index.md
-      - Comprehensive Guide: ai-product/strategy/AI-product-strategy-comprehensive-guide.md
+      - Overview: ai-products/strategy/index.md
+      - Comprehensive Guide: ai-products/strategy/AI-product-strategy-comprehensive-guide.md
     - UX:
-      - Overview: ai-product/ux/index.md
-      - Comprehensive Guide: ai-product/ux/AI-UX-comprehensive-guide.md
+      - Overview: ai-products/ux/index.md
+      - Comprehensive Guide: ai-products/ux/AI-UX-comprehensive-guide.md
     - Startups:
-      - Overview: ai-product/startups/index.md
-      - Infrastructure Guide: ai-product/startups/AI-infrastructure-startups-guide.md
+      - Overview: ai-products/startups/index.md
+      - Infrastructure Guide: ai-products/startups/AI-infrastructure-startups-guide.md
   
   - AI Systems Advanced:
     - Overview: ai-systems-advanced/index.md

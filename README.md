@@ -51,7 +51,8 @@ Think of it as:
 ai-hub/
 ├── ai-coding/                      # AI-assisted coding best practices
 ├── ai-for-science/                 # AI for science (biomed, proteins, etc.)
-├── ai-product-strategy/            # Product thinking for AI systems
+├── ai-products/                    # Product thinking for AI systems
+├── ai-hardware/                    # GPUs, accelerators, serving hardware
 ├── ai-security-and-governance/     # Security, risk, compliance
 ├── ai-startups/                    # Curated AI startup landscape
 ├── evalops/                        # Evaluation design + EvalOps notes

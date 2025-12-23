@@ -20,4 +20,3 @@ Status: **To verify**
 
 - Advice: follow passions vs market trends; universities may need to adapt as learning becomes location-independent. [Unverified]
 - “Bake ideas thoroughly” lesson (Google Glass example) framed as avoiding premature launches. [Unverified]
-

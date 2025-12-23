@@ -1,6 +1,6 @@
-# AI Product
+# AI Products
 
-Building, designing, and understanding the AI product landscape.
+Building, designing, and understanding the AI products landscape.
 
 ## Sections
 

@@ -36,5 +36,4 @@ Status: **To verify**
 ## Related (In This Repo)
 
 - Moats taxonomy note (7 moats): `seven-most-powerful-moats-for-ai-startups-noiz-summary.md`
-- AI products and GTM notes: `../../ai-product-strategy/README.md`
-
+- AI products and GTM notes: `../../strategy/README.md`

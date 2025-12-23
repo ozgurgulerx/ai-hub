@@ -25,4 +25,3 @@ Status: **To verify**
 - Agents & orchestration: `../../projects/agents/README.md`
 - Model APIs and agent loops: `../../model-apis/README.md`
 - AI coding agents (adoption concentration): `../../ai-coding/README.md`
-

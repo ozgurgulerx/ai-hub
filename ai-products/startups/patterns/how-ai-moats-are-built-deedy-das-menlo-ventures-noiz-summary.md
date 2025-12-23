@@ -34,4 +34,3 @@ Status: **To verify**
 
 - Diffusion models: `../../model-space/diffusion-models/README.md`
 - MCP: `../../projects/agents/agent-protocols/mcp/README.md`
-

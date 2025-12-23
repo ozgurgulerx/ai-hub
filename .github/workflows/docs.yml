@@ -38,9 +38,9 @@ jobs:
           cp ai-systems-building/agents/agent-protocols/mcp/MCP-comprehensive-guide.md docs/ai-systems-building/agents/
           cp ai-systems-ops/evalops/notes/evalops-comprehensive-guide.md docs/ai-systems-ops/evalops/
           cp ai-coding/notes/AI-coding-comprehensive-guide.md docs/ai-coding/
-          cp ai-product/strategy/notes/AI-product-strategy-comprehensive-guide.md docs/ai-product/strategy/
-          cp ai-product/startups/notes/AI-infrastructure-startups-guide.md docs/ai-product/startups/
-          cp ai-product/ux/notes/AI-UX-comprehensive-guide.md docs/ai-product/ux/
+          cp ai-products/strategy/notes/AI-product-strategy-comprehensive-guide.md docs/ai-products/strategy/
+          cp ai-products/startups/notes/AI-infrastructure-startups-guide.md docs/ai-products/startups/
+          cp ai-products/ux/notes/AI-UX-comprehensive-guide.md docs/ai-products/ux/
       
       - name: Build docs
         run: mkdocs build

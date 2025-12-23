@@ -29,4 +29,3 @@ Status: **To verify**
 - Alternative architectures: `../../model-space/README.md`
 - Diffusion models: `../../model-space/diffusion-models/README.md`
 - State space models (dynamics): `../../model-space/state-space-models/README.md`
-
