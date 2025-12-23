@@ -22,5 +22,6 @@ This folder contains consolidated knowledge for building retrieval-augmented gen
 
 ## Related Resources
 
+- Quantization for multi-vector retrieval (ColBERT/PQ): `quantization-fundamentals-for-multi-vector-retrieval.md`
 - Hands-on secure RAG baseline: `../docs/day001/README.md`
 - Ontologies + governance: `../../../docs/ai-security-and-governance/ai-governance/ontology-epistemology-owl-shacl.md`

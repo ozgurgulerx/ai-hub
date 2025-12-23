@@ -182,7 +182,13 @@ nav:
   
   - AI Model Space:
     - Overview: ai-model-space/index.md
-    - Training & Scaling: ai-model-space/training-and-scaling/index.md
+    - Training & Scaling:
+      - Overview: ai-model-space/training-and-scaling/index.md
+      - MoE:
+        - Overview: ai-model-space/training-and-scaling/moe/README.md
+        - Why Training MoEs Is Hard: ai-model-space/training-and-scaling/moe/why-training-moes-is-so-hard.md
+      - Notes:
+        - Anthropic Head of Pretraining: ai-model-space/training-and-scaling/notes/anthropic-head-of-pretraining-scaling-laws-compute-economics-noiz-summary.md
     - Reasoning Models:
       - Overview: ai-model-space/reasoning-models/index.md
       - DeepSeek V3: ai-model-space/reasoning-models/deepseek-v3/index.md

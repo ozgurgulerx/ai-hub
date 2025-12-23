@@ -4,53 +4,99 @@ MiniMax-M2 is a **MiniMax** (Chinese AI lab) model that’s often discussed as a
 
 This note is intentionally **spec-light**: add primary sources (model card, paper, repo) and verified numbers as you collect them.
 
-## What it is (in the reasoning stack)
+## At a glance (why people care)
 
-- A general-purpose LLM positioned as competitive on **practical coding tasks** (refactors, bug fixes, test generation), not just synthetic benchmarks.
-- A candidate for **self-hosted / on-prem** deployments where “data never leaves” is a hard requirement.
+- **Practical coding + agent workflows**: often described as strong on real-world developer tasks (refactors, bug fixes, test generation) and agent loops (tool use).
+- **Efficiency**: frequently reported as MoE with ~**10B active** parameters (and much larger total), aiming for lower latency/cost.
+- **Deployability**: positioned for self-hosted / on-prem scenarios and also offered via a hosted API.
 
-## What’s different / unique (why it can feel “practically better”)
+## Source-backed notes (claims to validate)
 
-### 1) Efficiency-first design
+### From Simon Willison’s writeup
 
-In many writeups, M2 is highlighted for having relatively low **activated compute** per token (often described as “~10B activated parameters”, suggesting a sparse/MoE-style execution profile). If accurate, this tends to translate into:
+- **Released** 2025-10-27 by MiniMax (Chinese AI lab founded 2021).
+- **Benchmark positioning (reported)**: comparable to “Sonnet-class” models on some self-reported scores; ranked highly among open-weights models by third parties (per the cited excerpt).
+- **Efficiency profile (reported)**: ~**10B active parameters** with ~**200B total** (MoE-style), and ~**230GB** weights on Hugging Face.
+- **Agentic strengths (reported)**: strong **tool use** and **instruction following** (mentions Tau2 Bench and IFBench).
+- **Tradeoff hypothesis (reported)**: strong for agent workflows, but may underperform larger open-weights generalists (e.g., DeepSeek V3.2, Qwen3 235B) on some broad tasks.
+- **Local run feasibility (reported)**: small enough to run on a **256GB Mac Studio**, with **MLX** community support.
 
-- Lower **latency** (snappier interactive coding assistants)
-- Higher **throughput** (more users per GPU)
-- Lower **cost** (makes multi-tenant or high-volume usage economically viable)
+Treat these as **claims to validate** with primary sources (model card/tech report) and your own eval harness.
 
-### 2) “Good enough” quality at open-model economics
+## Architecture notes (high-impact integration points)
 
-The value proposition is less “it’s the best model at everything” and more:
+These items are useful because they connect “benchmarks are good” to **specific knobs** that affect latency, memory, and reliability. Some are based on third-party analysis; confirm against the model config and code once you have primary sources.
 
-- Comparable outputs on real developer workflows (patches/tests/refactors)
-- With the **control** of open(-weight) deployment (governance, isolation, auditability)
+![MiniMax-M2 vs Qwen3 architecture comparison](minimax2.jpeg)
 
-### 3) Deployment flexibility (privacy/control)
+### Full attention (vs “efficient attention” variants)
 
-Because it’s positioned for self-hosting, M2 is relevant for:
+- Reported as using **full attention** modules (decoder-style Transformer) rather than an “efficient/lightning attention” variant used by MiniMax-M1.
+- Why it matters: full attention can improve modeling quality and benchmark performance, but can be more expensive at long context.
 
-- Regulated environments (finance/healthcare/security)
-- Internal codebases and customer data where sending prompts to third-party APIs is unacceptable
+### Per-layer QK-Norm (per-head variant)
 
-## How it differs from Kimi-K2 and DeepSeek-V3.2 (high-level)
+Key concept: **QK-Norm**  
+Normalizing queries/keys helps stabilize attention (especially at scale/long context) and can improve training/inference stability.
 
-- **MiniMax-M2 vs Kimi-K2**
-  - M2: typically framed as **efficiency + code task performance** (fast/cheap enough for always-on assistants).
-  - Kimi-K2: commonly framed as **long-context + reasoning usage** (strong at reading large inputs / documents).
-- **MiniMax-M2 vs DeepSeek-V3.2**
-  - M2: framed as a deployable, efficient model for day-to-day coding and agent workflows.
-  - V3.2: treated as a strong **base model** in a stack where reasoning is often achieved via post-training (e.g., R1-style RL + verifiers).
+- Reported nuance: a “per-layer” QK-Norm where the norm is not only per block, but also **unique per attention head** (instead of shared across heads).
+- Why it matters: per-head normalization can reduce head-to-head interference, improving stability/quality at modest additional compute/params.
 
-Treat the above as hypotheses until you attach sources and run your own evals.
+### Sliding-window attention (present, disabled by default)
 
-## Comparison to frontier closed models (e.g., Sonnet-class)
+- Reported as having a **sliding-window attention** configuration (similar to Gemma/Mistral families), but **disabled by default**.
+- Why it matters: if enabled, sliding windows trade global context quality for better long-context efficiency.
 
-Some third-party evaluations claim M2 can be **close to** (or occasionally outperform) frontier closed models on practical code tasks while being substantially cheaper/faster. Treat this as a **claim to validate**:
+### MoE sparsity (active compute ratio) and shared experts
 
-- Make sure the eval uses the same prompts, constraints, and tooling.
-- Prefer repo-level tasks (fix bug, add tests, refactor) over “toy” benchmarks.
-- Track both quality and operational metrics (latency, throughput, cost).
+Key concept: **active vs total parameters (MoE)**  
+In Mixture-of-Experts (MoE) models, total parameters can be large, but only a small fraction activates per token. This “active compute ratio” is a major driver of latency/cost.
+
+- Reported detail: M2 does **not** use a shared expert (similar to Qwen3, unlike some variants such as “Next” families).
+- Reported comparison: at similar total size to Qwen3 235B-A22B, M2 is ~**twice as sparse** (e.g., **10B active** vs **22B active** per token; ~**4.37%** active vs ~**9.36%**).
+- Why it matters: more sparsity can mean lower cost/latency, but can trade off quality if expert capacity/routing isn’t tuned well.
+
+## Agent readiness (concepts that matter in practice)
+
+Key concept: **tool use**  
+Reliably decides *when* to call tools and produces schema-correct tool inputs/outputs.
+
+Key concept: **instruction following**  
+Follows constraints (format, policies, multi-step rubrics) without drifting—critical for agents that must be predictable.
+
+Key concept: **interleaved thinking / reasoning traces**  
+Some “agentic thinking” models emit separate “thinking”/trace content. If the API expects those traces to be included in conversation history, your client must preserve them between turns.
+
+## Deployment + API notes
+
+Key concept: **open weights vs hosted API**  
+“Open weights” usually means you can download and run the model weights yourself (licensing still matters). Separately, a hosted API is a time-to-value tradeoff.
+
+Key concept: **Anthropic-compatible endpoints**  
+Clients speak an Anthropic-style schema but point at a different provider `base_url`, enabling reuse of SDKs and middleware.
+
+Practical guidance:
+- Preserve the provider’s expected message format across turns (don’t drop “thinking” blocks if the API requires them).
+- Avoid logging or exposing reasoning traces in production unless you have a clear privacy/security posture.
+
+Reported pricing in the cited writeup:
+- Free until **2025-11-07**, then **$0.30 / 1M input tokens** and **$1.20 / 1M output tokens** (time-bound; verify current pricing).
+
+## Ecosystem notes (developer tooling)
+
+The cited source highlights a small community integration via Simon Willison’s `llm` CLI:
+
+```bash
+llm install llm-minimax
+llm keys set minimax
+llm -m m2 -o max_tokens 10000 "Generate an SVG of a pelican riding a bicycle"
+```
+
+## Compare & contrast (keep it testable)
+
+- **MiniMax-M2 vs Qwen3 (architecture)**: reported as extremely similar overall, with a standout difference in per-head QK-Norm and higher MoE sparsity; validate via config/code.
+- **MiniMax-M2 vs DeepSeek-V3.2 (positioning)**: M2 often framed as efficient “agentic/coding” workhorse; V3.2 often treated as a stronger general base model in a broader stack.
+- **MiniMax-M2 vs Kimi-K2 (usage)**: M2 tends to be framed around efficiency + code/agent loops; Kimi tends to be framed around long-context reading/synthesis.
 
 ## What to verify / fill in (pending primary sources)
 
@@ -59,9 +105,12 @@ Some third-party evaluations claim M2 can be **close to** (or occasionally outpe
 - Training mix (code/math weighting, multilingual balance)
 - Tool/function-calling support and structured outputs behavior
 - Benchmark + “real repo task” eval details (datasets, harness, scoring methodology)
+- Architecture details called out above (full attention choice, QK-Norm variant, sliding-window flag, shared experts, active compute ratio).
 
 ## References (TODO)
 
+- Simon Willison, “MiniMax M2 & Agent: Ingenious in Simplicity” (2025-10-29): https://simonwillison.net/2025/Oct/29/minimax-m2/
+- “The Big LLM Architecture Comparison” (MiniMax-M2 entry; link TBD)
 - Official model card / repo:
 - Technical report:
 - Independent evals (share methodology, not just scores):

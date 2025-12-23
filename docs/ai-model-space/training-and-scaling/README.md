@@ -23,3 +23,7 @@ Notes on the **training stack** behind frontier models: pre-training, post-train
 
 - Anthropic pre-training: scaling laws, distributed training, data quality (Noiz summary, to verify): `notes/anthropic-head-of-pretraining-scaling-laws-compute-economics-noiz-summary.md`
 
+## MoE
+
+- MoE overview: `moe/README.md`
+- Why training MoEs is hard (practitioner write-up): `moe/why-training-moes-is-so-hard.md`

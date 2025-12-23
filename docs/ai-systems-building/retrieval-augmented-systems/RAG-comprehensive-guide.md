@@ -126,6 +126,9 @@ Keep token vectors separate and score per-token, avoiding pooling/averaging unpr
 - Online token-level comparison
 - Reranking at scale with manageable latency
 
+Scaling note:
+- Quantization is often essential for multi-vector indexes (e.g., Product Quantization / residual bit-packing): `notes/quantization-fundamentals-for-multi-vector-retrieval.md`
+
 ---
 
 ## 4. Query Understanding
@@ -205,6 +208,7 @@ Reranking is a plug-and-play layer between retrieval and the LLM. It's low-hangi
 **Cross-encoder rerankers** — Score query–document pairs jointly with cross-attention. Higher quality similarity scores, higher latency.
 
 **Late interaction (ColBERT)** — Split into offline document embedding and online token-level comparison. Scales better with manageable latency.
+For multi-vector indexes, quantization is usually the key enabler: `notes/quantization-fundamentals-for-multi-vector-retrieval.md`
 
 ### Training Rerankers
 
