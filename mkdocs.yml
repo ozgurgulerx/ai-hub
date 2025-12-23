@@ -145,7 +145,14 @@ nav:
   
   - AI Model Space:
     - Overview: ai-model-space/index.md
-    - Reasoning Models: ai-model-space/reasoning-models/index.md
+    - Training & Scaling: ai-model-space/training-and-scaling/index.md
+    - Reasoning Models:
+      - Overview: ai-model-space/reasoning-models/index.md
+      - DeepSeek V3: ai-model-space/reasoning-models/deepseek-v3/index.md
+      - GPT-5: ai-model-space/reasoning-models/gpt-5/index.md
+      - Kimi K2: ai-model-space/reasoning-models/kimi-k2/index.md
+      - MiniMax2: ai-model-space/reasoning-models/minimax2/index.md
+      - Sakana CTM: ai-model-space/reasoning-models/sakana-ctm/index.md
     - State Space Models: ai-model-space/state-space-models/index.md
     - World Models: ai-model-space/world-models/index.md
     - Diffusion Models: ai-model-space/diffusion-models/index.md

@@ -6,6 +6,7 @@ Model architectures, reasoning models, and research.
 
 | Section | Focus |
 |---------|-------|
+| **[Training & Scaling](training-and-scaling/index.md)** | Pre-training → RLHF → LoRA → GRPO |
 | **[Reasoning Models](reasoning-models/index.md)** | Chain-of-thought, scaling |
 | **[State Space Models](state-space-models/index.md)** | Mamba, Jamba |
 | **[World Models](world-models/index.md)** | Latent dynamics, planning |
