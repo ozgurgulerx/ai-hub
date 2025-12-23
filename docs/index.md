@@ -6,6 +6,7 @@ Welcome to the AI Hub — a comprehensive collection of learning resources, note
 
 | Section | Focus |
 |---------|-------|
+| **[AI Leaders](ai-leaders/index.md)** | Talks & insights from AI leaders |
 | **[AI Systems Building](ai-systems-building/index.md)** | RAG, Agents, Inference |
 | **[AI Systems Ops](ai-systems-ops/index.md)** | EvalOps, observability |
 | **[AI Hardware](ai-hardware/index.md)** | GPUs, serving, networking |

@@ -109,6 +109,16 @@ extra:
 nav:
   - Home: index.md
   
+  - AI Leaders:
+    - Overview: ai-leaders/index.md
+    - Dario Amodei: ai-leaders/dario-amodei-cheeky-pint-noiz-summary.md
+    - Demis Hassabis (Future of Intelligence): ai-leaders/demis-hassabis-future-of-intelligence-noiz-summary.md
+    - Demis Hassabis (Axios): ai-leaders/demis-hassabis-axios-mike-allen-noiz-summary.md
+    - Sergey Brin: ai-leaders/sergey-brin-big-ideas-stanford-noiz-summary.md
+    - Richard Sutton: ai-leaders/richard-sutton-gradient-descent-noiz-summary.md
+    - Sholto Douglas: ai-leaders/sholto-douglas-ai-plateau-myth-noiz-summary.md
+    - Sherwin Wu: ai-leaders/sherwin-wu-year-of-agents-noiz-summary.md
+  
   - AI Systems Building:
     - Overview: ai-systems-building/index.md
     - RAG:
@@ -160,6 +170,7 @@ nav:
         - Traversal Causal ML + RL: ai-systems-advanced/causal-ml/notes/traversal-causal-ml-and-reinforcement-learning.md
     - Reinforcement Learning:
       - Overview: ai-systems-advanced/reinforcement-learning/index.md
+      - RL Environments: ai-systems-advanced/reinforcement-learning/rl-environments/index.md
       - Planning:
         - RLHF Book Notes: ai-systems-advanced/reinforcement-learning/planning/rlhf_book_notes.md
         - RLFT Concepts: ai-systems-advanced/reinforcement-learning/planning/rlft_concepts.md
