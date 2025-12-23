@@ -118,11 +118,15 @@ nav:
       - Overview: ai-systems-building/agents/index.md
       - Comprehensive Guide: ai-systems-building/agents/agents-comprehensive-guide.md
       - MCP Protocol: ai-systems-building/agents/MCP-comprehensive-guide.md
-    - EvalOps:
-      - Overview: ai-systems-building/evalops/index.md
-      - Comprehensive Guide: ai-systems-building/evalops/evalops-comprehensive-guide.md
     - Inference Engineering:
       - Overview: ai-systems-building/inference-engineering/index.md
+  
+  - AI Systems Ops:
+    - Overview: ai-systems-ops/index.md
+    - EvalOps:
+      - Overview: ai-systems-ops/evalops/index.md
+      - Comprehensive Guide: ai-systems-ops/evalops/evalops-comprehensive-guide.md
+    - Observability: ai-systems-ops/observability/index.md
   
   - AI Product:
     - Overview: ai-product/index.md
