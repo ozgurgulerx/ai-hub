@@ -1,6 +1,13 @@
 # Reasoning Models
 
-Chain-of-thought, Verifier's Law, scaling, and self-teaching.
+LLMs that exhibit reasoning behavior: multi-step problem solving, structured deliberation, and tool use.
+
+## What "Reasoning" Means
+
+- Multi-step decomposition into intermediate steps
+- Structured representations (scratchpads, programs, proofs)
+- Consistency and verification loops (self-checks, voting, tool calls)
+- Generalization to novel problems
 
 ## Models
 
@@ -11,3 +18,24 @@ Chain-of-thought, Verifier's Law, scaling, and self-teaching.
 | **[Kimi K2](kimi-k2/index.md)** | Long context, Chinese+English |
 | **[MiniMax M2](minimax2/index.md)** | Efficiency, self-hosted |
 | **[Sakana CTM](sakana-ctm/index.md)** | Temporal reasoning, backtracking |
+
+## Key Methods
+
+### Pre-Training
+- Next-token prediction on web, code, math data
+- Synthetic reasoning data generation
+- Curriculum learning
+
+### Post-Training
+- Instruction tuning (SFT)
+- RLHF/RLAIF for helpfulness and correctness
+- Outcome-based RL, process-based supervision
+
+### Inference-Time
+- Chain-of-thought prompting
+- Self-consistency (sample multiple paths, vote)
+- Tool augmentation (code execution, retrieval)
+
+## Notes
+
+- [Reasoning Models Comprehensive Guide](notes/reasoning-models-comprehensive-guide.md)

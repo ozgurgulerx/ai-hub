@@ -153,7 +153,11 @@ nav:
       - Kimi K2: ai-model-space/reasoning-models/kimi-k2/index.md
       - MiniMax2: ai-model-space/reasoning-models/minimax2/index.md
       - Sakana CTM: ai-model-space/reasoning-models/sakana-ctm/index.md
-    - State Space Models: ai-model-space/state-space-models/index.md
+    - State Space Models:
+      - Overview: ai-model-space/state-space-models/index.md
+      - Mamba: ai-model-space/state-space-models/mamba.md
+      - Jamba: ai-model-space/state-space-models/jamba.md
+      - S4: ai-model-space/state-space-models/s4.md
     - World Models: ai-model-space/world-models/index.md
     - Diffusion Models: ai-model-space/diffusion-models/index.md
     - Multi-Modal Models: ai-model-space/multi-modal-models/index.md
