@@ -4,5 +4,4 @@ Notes and mental models for applying AI to scientific discovery and engineering,
 
 ## Notes
 
-- AlphaFold (protein structure prediction; Noiz summary, to verify): `notes/alphafold-most-important-ai-breakthrough-ever-made-noiz-summary.md`
-
+- AlphaFold (protein structure prediction; Noiz summary, to verify): `../../docs/ai-systems-advanced/ai-for-science/notes/alphafold-most-important-ai-breakthrough-ever-made-noiz-summary.md`

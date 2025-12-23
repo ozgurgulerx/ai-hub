@@ -578,7 +578,7 @@ if __name__ == "__main__":
 - Foundry fine-tuning workflow (upload, checkpoints, pause/resume, artifacts, events): [Microsoft Learn][4]
 - Cost management (billing model, what’s billed, guardrails, auto-pause): [Microsoft Learn][3]
 - RLFT mental model (sample → grade → update; why verifiable tasks matter): [OpenAI docs][5]
-- RLFT concepts + use-case map (companion note): `planning/rlft_concepts.md`
+- RLFT concepts + use-case map (companion note): `../../../../docs/ai-systems-advanced/reinforcement-learning/planning/rlft_concepts.md`
 
 ---
 

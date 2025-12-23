@@ -97,7 +97,7 @@ Suggested dimensions:
 
 ## Related Notes (In This Repo)
 
-**[Reasoning Models Comprehensive Guide](notes/reasoning-models-comprehensive-guide.md)** — Complete reference covering:
+**[Reasoning Models Comprehensive Guide](../../docs/ai-model-space/reasoning-models/notes/reasoning-models-comprehensive-guide.md)** — Complete reference covering:
 - Chain-of-thought and RL for reasoning
 - Verifier's Law (capability ∝ verification ease)
 - Jagged edge of intelligence

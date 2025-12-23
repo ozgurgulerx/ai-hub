@@ -6,6 +6,6 @@ Building, designing, and understanding the AI products landscape.
 
 | Section | Focus |
 |---------|-------|
-| **[Strategy](strategy/index.md)** | Product philosophy, GTM |
+| **[Strategy & GTM](strategy-gtm/index.md)** | Product philosophy, GTM |
 | **[UX](ux/index.md)** | Interfaces, feedback loops |
 | **[Startups](startups/index.md)** | Market analysis |

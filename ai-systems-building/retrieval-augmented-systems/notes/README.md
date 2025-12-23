@@ -4,7 +4,7 @@ This folder contains consolidated knowledge for building retrieval-augmented gen
 
 ## Main Document
 
-**[RAG-comprehensive-guide.md](RAG-comprehensive-guide.md)** — Complete guide covering:
+**[RAG-comprehensive-guide.md](../../../docs/ai-systems-building/retrieval-augmented-systems/RAG-comprehensive-guide.md)** — Complete guide covering:
 
 - Data quality & ingestion
 - Chunking strategies
@@ -23,4 +23,4 @@ This folder contains consolidated knowledge for building retrieval-augmented gen
 ## Related Resources
 
 - Hands-on secure RAG baseline: `../docs/day001/README.md`
-- Ontologies + governance: `../../ai-security-and-governance/docs/ai-governance/ontology-epistemology-owl-shacl.md`
+- Ontologies + governance: `../../../docs/ai-security-and-governance/ai-governance/ontology-epistemology-owl-shacl.md`

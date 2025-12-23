@@ -112,8 +112,8 @@ nav:
   - AI Systems Building:
     - Overview: ai-systems-building/index.md
     - RAG:
-      - Overview: ai-systems-building/rag/index.md
-      - Comprehensive Guide: ai-systems-building/rag/RAG-comprehensive-guide.md
+      - Overview: ai-systems-building/retrieval-augmented-systems/index.md
+      - Comprehensive Guide: ai-systems-building/retrieval-augmented-systems/RAG-comprehensive-guide.md
     - Agents:
       - Overview: ai-systems-building/agents/index.md
       - Comprehensive Guide: ai-systems-building/agents/agents-comprehensive-guide.md
@@ -137,9 +137,9 @@ nav:
   
   - AI Products:
     - Overview: ai-products/index.md
-    - Strategy:
-      - Overview: ai-products/strategy/index.md
-      - Comprehensive Guide: ai-products/strategy/AI-product-strategy-comprehensive-guide.md
+    - Strategy & GTM:
+      - Overview: ai-products/strategy-gtm/index.md
+      - Comprehensive Guide: ai-products/strategy-gtm/AI-product-strategy-comprehensive-guide.md
     - UX:
       - Overview: ai-products/ux/index.md
       - Comprehensive Guide: ai-products/ux/AI-UX-comprehensive-guide.md
@@ -149,10 +149,25 @@ nav:
   
   - AI Systems Advanced:
     - Overview: ai-systems-advanced/index.md
-    - Graph ML: ai-systems-advanced/graph-ml/index.md
-    - Causal ML: ai-systems-advanced/causal-ml/index.md
-    - Reinforcement Learning: ai-systems-advanced/reinforcement-learning/index.md
-    - AI for Science: ai-systems-advanced/ai-for-science/index.md
+    - Graph ML:
+      - Overview: ai-systems-advanced/graph-ml/index.md
+      - GNNs: ai-systems-advanced/graph-ml/gnns/README.md
+      - Notes:
+        - Back to AI Basics: ai-systems-advanced/graph-ml/notes/back-to-ai-basics-series.md
+    - Causal ML:
+      - Overview: ai-systems-advanced/causal-ml/index.md
+      - Notes:
+        - Traversal Causal ML + RL: ai-systems-advanced/causal-ml/notes/traversal-causal-ml-and-reinforcement-learning.md
+    - Reinforcement Learning:
+      - Overview: ai-systems-advanced/reinforcement-learning/index.md
+      - Planning:
+        - RLHF Book Notes: ai-systems-advanced/reinforcement-learning/planning/rlhf_book_notes.md
+        - RLFT Concepts: ai-systems-advanced/reinforcement-learning/planning/rlft_concepts.md
+        - Post-Training & Fine-Tuning: ai-systems-advanced/reinforcement-learning/planning/post-training-and-fine-tuning-mit-6s191-liquid-ai-noiz-summary.md
+    - AI for Science:
+      - Overview: ai-systems-advanced/ai-for-science/index.md
+      - Notes:
+        - AlphaFold: ai-systems-advanced/ai-for-science/notes/alphafold-most-important-ai-breakthrough-ever-made-noiz-summary.md
   
   - AI Model Space:
     - Overview: ai-model-space/index.md
@@ -164,16 +179,43 @@ nav:
       - Kimi K2: ai-model-space/reasoning-models/kimi-k2/index.md
       - MiniMax2: ai-model-space/reasoning-models/minimax2/index.md
       - Sakana CTM: ai-model-space/reasoning-models/sakana-ctm/index.md
+      - Notes:
+        - Comprehensive Guide: ai-model-space/reasoning-models/notes/reasoning-models-comprehensive-guide.md
     - State Space Models:
       - Overview: ai-model-space/state-space-models/index.md
       - Mamba: ai-model-space/state-space-models/mamba.md
       - Jamba: ai-model-space/state-space-models/jamba.md
       - S4: ai-model-space/state-space-models/s4.md
-    - World Models: ai-model-space/world-models/index.md
-    - Diffusion Models: ai-model-space/diffusion-models/index.md
-    - Multi-Modal Models: ai-model-space/multi-modal-models/index.md
-    - Small Language Models: ai-model-space/small-language-models/index.md
-    - Model APIs: ai-model-space/model-apis/index.md
+    - World Models:
+      - Overview: ai-model-space/world-models/index.md
+      - Notes:
+        - World Models (Academic Budget): ai-model-space/world-models/notes/world-models-on-an-academic-budget-nicklas-hansen-noiz-summary.md
+        - From Seeing to Doing (Fei-Fei Li): ai-model-space/world-models/notes/from-seeing-to-doing-fei-fei-li-neurips-noiz-summary.md
+    - Diffusion Models:
+      - Overview: ai-model-space/diffusion-models/index.md
+      - Notes:
+        - Simple Diffusion Language Models: ai-model-space/diffusion-models/notes/simple-diffusion-language-models-noiz-summary.md
+    - Multi-Modal Models:
+      - Overview: ai-model-space/multi-modal-models/index.md
+      - Notes:
+        - GPT Realtime API: ai-model-space/multi-modal-models/notes/introducing-gpt-realtime-api-noiz-summary.md
+        - Gemini 3: ai-model-space/multi-modal-models/notes/gemini-3-and-the-future-of-ai-noiz-summary.md
+    - Small Language Models:
+      - Overview: ai-model-space/small-language-models/index.md
+      - Notes:
+        - Build SLM from Scratch (TinyStories): ai-model-space/small-language-models/notes/build-slm-from-scratch-tinystories.md
+    - Model APIs:
+      - Overview: ai-model-space/model-apis/index.md
+      - Inference controls:
+        - Temperature: ai-model-space/model-apis/inference-controls/temperature.md
+        - Top-p: ai-model-space/model-apis/inference-controls/top_p.md
+        - Structured outputs: ai-model-space/model-apis/inference-controls/structured-outputs.md
+      - Patterns:
+        - Retries & timeouts: ai-model-space/model-apis/patterns/retries-timeouts.md
+      - Providers:
+        - OpenAI:
+          - Overview: ai-model-space/model-apis/openai/index.md
+          - Responses API (Build Hour): ai-model-space/model-apis/openai/responses-api-build-hour-noiz-summary.md
   
   - AI Coding:
     - Overview: ai-coding/index.md
@@ -181,7 +223,19 @@ nav:
   
   - AI Security & Governance:
     - Overview: ai-security-and-governance/index.md
-    - Agent Governance: ai-security-and-governance/agent-governance/index.md
-    - AI Governance: ai-security-and-governance/ai-governance/index.md
-    - MCP Security: ai-security-and-governance/mcp-security/index.md
-    - Privacy: ai-security-and-governance/privacy/index.md
+    - Agent Governance:
+      - Overview: ai-security-and-governance/agent-governance/index.md
+      - Kill Switches: ai-security-and-governance/agent-governance/kill-switches.md
+      - Zero-Click Attacks: ai-security-and-governance/agent-governance/zero-click-attacks-ai-agents-noiz-summary.md
+    - AI Governance:
+      - Overview: ai-security-and-governance/ai-governance/index.md
+      - Ontology & Epistemology (OWL/SHACL): ai-security-and-governance/ai-governance/ontology-epistemology-owl-shacl.md
+      - Notes:
+        - AI Safety for Everyone: notes/ai-safety-for-everyone-atoosa-kasirzadeh-noiz-summary.md
+    - MCP Security:
+      - Overview: ai-security-and-governance/mcp-security/index.md
+      - Dark Side of MCP: ai-security-and-governance/mcp-security/dark-side-of-mcp-vitor-balocco-noiz-summary.md
+    - Privacy:
+      - Overview: ai-security-and-governance/privacy/index.md
+      - Differential Privacy: ai-security-and-governance/privacy/differential-privacy.md
+      - Federated Learning: ai-security-and-governance/privacy/federated-learning.md

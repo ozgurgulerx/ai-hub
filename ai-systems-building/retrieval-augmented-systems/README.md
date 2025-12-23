@@ -6,7 +6,7 @@ This folder contains a comprehensive guide to building production RAG systems, p
 
 | Resource | Description |
 |----------|-------------|
-| **[RAG Comprehensive Guide](notes/RAG-comprehensive-guide.md)** | Complete reference covering data quality, chunking, embeddings, retrieval architectures, reranking, GraphRAG, context engineering, evaluation, and security |
+| **[RAG Comprehensive Guide](../../docs/ai-systems-building/retrieval-augmented-systems/RAG-comprehensive-guide.md)** | Complete reference covering data quality, chunking, embeddings, retrieval architectures, reranking, GraphRAG, context engineering, evaluation, and security |
 | [Secure RAG Lab](docs/day001/README.md) | Hands-on vulnerable RAG app + attack harness for testing defenses |
 
 ## What Usually Breaks

@@ -49,7 +49,7 @@ Cross-cutting patterns that help interpret startup/company moves (funding dynami
 
 ## Notes
 
-**[AI Infrastructure Startups Guide](notes/AI-infrastructure-startups-guide.md)** — Consolidated profiles covering:
+**[AI Infrastructure Startups Guide](../../docs/ai-products/startups/AI-infrastructure-startups-guide.md)** — Consolidated profiles covering:
 - Surge AI (data quality, human evaluation)
 - Exa (web search for agents)
 - LanceDB (multimodal lakehouse)

@@ -15,8 +15,8 @@ My work on AI security methods and everything on AI security.
 ## Privacy-preserving ML (P1)
 
 - Overview: `docs/privacy/README.md`
-- Federated learning: `docs/privacy/federated-learning.md`
-- Differential privacy: `docs/privacy/differential-privacy.md`
+- Federated learning: `../docs/ai-security-and-governance/privacy/federated-learning.md`
+- Differential privacy: `../docs/ai-security-and-governance/privacy/differential-privacy.md`
 
 ## What AI Security Implies
 

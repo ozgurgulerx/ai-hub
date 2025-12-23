@@ -10,5 +10,5 @@ This folder covers **world models** for embodied AI and planning: learned simula
 
 ## Notes
 
-- World models on an academic budget (Nicklas Hansen; Noiz summary, to verify): `notes/world-models-on-an-academic-budget-nicklas-hansen-noiz-summary.md`
-- From seeing to doing: spatial intelligence → embodied agents (Fei-Fei Li; Noiz summary, to verify): `notes/from-seeing-to-doing-fei-fei-li-neurips-noiz-summary.md`
+- World models on an academic budget (Nicklas Hansen; Noiz summary, to verify): `../../docs/ai-model-space/world-models/notes/world-models-on-an-academic-budget-nicklas-hansen-noiz-summary.md`
+- From seeing to doing: spatial intelligence → embodied agents (Fei-Fei Li; Noiz summary, to verify): `../../docs/ai-model-space/world-models/notes/from-seeing-to-doing-fei-fei-li-neurips-noiz-summary.md`

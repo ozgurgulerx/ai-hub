@@ -4,8 +4,8 @@ This folder collects practical notes on **privacy-preserving training and analyt
 
 ## Chapters
 
-- **Differential privacy (DP)**: `differential-privacy.md` (privacy guarantees for training, analytics, and data release)
-- **Federated learning (FL)**: `federated-learning.md` (train across silos/devices without centralizing raw data)
+- **Differential privacy (DP)**: `../../../docs/ai-security-and-governance/privacy/differential-privacy.md` (privacy guarantees for training, analytics, and data release)
+- **Federated learning (FL)**: `../../../docs/ai-security-and-governance/privacy/federated-learning.md` (train across silos/devices without centralizing raw data)
 
 ## How to use
 

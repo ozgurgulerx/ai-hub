@@ -11,7 +11,7 @@ This section is for evaluation design and operating practices: how to define suc
 
 ## Notes
 
-**[EvalOps Comprehensive Guide](notes/evalops-comprehensive-guide.md)** — Complete reference covering:
+**[EvalOps Comprehensive Guide](../../docs/ai-systems-ops/evalops/evalops-comprehensive-guide.md)** — Complete reference covering:
 - Outcome-first evaluation design
 - Data quality and synthetic data limitations
 - LLM-assisted evaluation

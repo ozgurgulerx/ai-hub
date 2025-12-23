@@ -4,7 +4,7 @@ This folder contains a comprehensive guide to building and scaling AI-powered pr
 
 ## Start Here
 
-**[AI Product Strategy Comprehensive Guide](notes/AI-product-strategy-comprehensive-guide.md)** — Complete reference covering:
+**[AI Product Strategy Comprehensive Guide](../../docs/ai-products/strategy-gtm/AI-product-strategy-comprehensive-guide.md)** — Complete reference covering:
 
 - Product philosophy (latent demand, unshipping, speed + quality)
 - Go-to-market strategy (category creation, PLG, virality)

@@ -40,18 +40,18 @@ This folder focuses on governance for agents that can:
 - MCP server registry (server inventory, exposed tools/resources, scopes, owners, review status)
 - Approval matrix (which actions require human approval vs. auto-execute)
 - Logging/retention policy for traces and tool outputs (with privacy constraints)
-- “Break glass” + kill switch procedures and drills (see `kill-switches.md`)
+- “Break glass” + kill switch procedures and drills (see `../../../docs/ai-security-and-governance/agent-governance/kill-switches.md`)
 - Red-team scenario pack + evaluation checklist
-- Zero-click + agent abuse scenarios: `zero-click-attacks-ai-agents-noiz-summary.md`
+- Zero-click + agent abuse scenarios: `../../../docs/ai-security-and-governance/agent-governance/zero-click-attacks-ai-agents-noiz-summary.md`
 
 ## Next Files (Good Starting Point)
 
 - `threat-model.md` (agent-specific threat model template)
 - `approval-matrix.md` (action categories → required approvals/controls)
 - `incident-runbook.md` (containment, rollback, evidence collection)
-- `kill-switches.md` (feature flags, safety files, outage containment)
+- `../../../docs/ai-security-and-governance/agent-governance/kill-switches.md` (feature flags, safety files, outage containment)
 
 Related:
 - MCP security notes: `../mcp-security/README.md`
-- Product note (deterministic “agent builder” pattern; claims to verify): `../../../ai-products/strategy/README.md`
-- Zero-click attacks and agent amplification (Noiz summary, to verify): `zero-click-attacks-ai-agents-noiz-summary.md`
+- Product note (deterministic “agent builder” pattern; claims to verify): `../../../docs/ai-products/strategy-gtm/index.md`
+- Zero-click attacks and agent amplification (Noiz summary, to verify): `../../../docs/ai-security-and-governance/agent-governance/zero-click-attacks-ai-agents-noiz-summary.md`

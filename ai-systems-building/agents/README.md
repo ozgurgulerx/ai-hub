@@ -115,7 +115,6 @@ OPENAI_API_KEY is honored as a fallback in some samples, but Azure settings are 
 - `05-agent-memory-general/` — Memory patterns from stateless history to thread-backed stores (Azure AI Search, Redis, JSON), long-term Mem0 + vector search (single + multi-agent), thread persistence/serialization, and intent-aware planner demos.
 - `agent-protocols/` — Interop topics like MCP and A2A (how agents connect to tools/resources and to each other).
 - `multi-agent/` — Multi-agent patterns + notes index.
-- `notes/` — Talk notes and distilled learnings (claims-to-verify).
 - `docu/` — Offline PDF references from official docs.
 
 ---
@@ -143,5 +142,4 @@ OPENAI_API_KEY is honored as a fallback in some samples, but Azure settings are 
 
 ## Additional notes (in this repo)
 
-- **[AI Agents Comprehensive Guide](notes/agents-comprehensive-guide.md)** — Complete reference covering agent architecture, production requirements, multi-agent systems, context engineering, voice agents, customer-facing agents, and evaluation
-- Agent design “first principles” (agentic era, tool coupling, sub-agents, eval posture) — Noiz summary notes: `notes/first-principles-next-gen-agents-noiz-summary.md`
+- **[AI Agents Comprehensive Guide](../../docs/ai-systems-building/agents/agents-comprehensive-guide.md)** — Complete reference covering agent architecture, production requirements, multi-agent systems, context engineering, voice agents, customer-facing agents, and evaluation

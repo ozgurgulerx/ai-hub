@@ -4,7 +4,7 @@ Notes and building guides for **small language models**: compact LMs (often fram
 
 ## What’s Here
 
-- Build an SLM from scratch (TinyStories + GPT-2 tokenizer + nanoGPT-style pipeline): `notes/build-slm-from-scratch-tinystories.md`
+- Build an SLM from scratch (TinyStories + GPT-2 tokenizer + nanoGPT-style pipeline): `../../docs/ai-model-space/small-language-models/notes/build-slm-from-scratch-tinystories.md`
 
 ## Related (In This Repo)
 

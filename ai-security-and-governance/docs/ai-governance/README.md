@@ -8,7 +8,7 @@ AI governance is the operating model that turns **responsible AI principles** in
 - Security for AI: https://learn.microsoft.com/en-us/security/security-for-ai/
 - Responsible AI Toolbox (incl. dashboards): https://github.com/microsoft/responsible-ai-toolbox
 - Microsoft compliance assurance for AI: https://learn.microsoft.com/en-us/compliance/assurance/assurance-artificial-intelligence
-- AI safety framing beyond “existential-only” (Noiz summary, to verify): `../../notes/ai-safety-for-everyone-atoosa-kasirzadeh-noiz-summary.md`
+- AI safety framing beyond “existential-only” (Noiz summary, to verify): `../../../docs/notes/ai-safety-for-everyone-atoosa-kasirzadeh-noiz-summary.md`
 
 ## A Practical Lifecycle: Govern → Map → Measure → Manage
 
@@ -89,6 +89,6 @@ Practical note: “SQL-based ontologies” are increasingly discussed because th
 
 Ontology projects often fail for a non-technical reason: teams mix up **facts**, **inferences**, and **unknowns**, then expect reasoning to “fill in” missing data. A useful mental model (especially when combining OWL + SHACL) is captured in:
 
-- Deep dive: `ontology-epistemology-owl-shacl.md`
+- Deep dive: `../../../docs/ai-security-and-governance/ai-governance/ontology-epistemology-owl-shacl.md`
 
 Key idea: **reasoning exposes implications of what you already know; it does not acquire missing facts**. Completeness for action must be **declared and governed**, not inferred.

@@ -8,7 +8,7 @@ Building successful AI products requires a distinct playbook from traditional so
 
 **Models are commoditizing. Product and GTM are not.** The companies winning in AI aren't necessarily those with the best models—they're the ones with tight feedback loops, domain expertise, and distribution advantages that compound over time.
 
-**The "PMF treadmill" is real.** AI companies must re-find product-market fit every ~3 months as models improve and user expectations shift. What delighted users last quarter becomes table stakes.
+**The "PMF treadmill" is real.** AI companies must re-earn product-market fit every ~3 months as models improve and user expectations shift. What delighted users last quarter becomes table stakes—even at scale.
 
 **Production reality differs from testing.** Offline evaluations are necessary but insufficient. Users interact with AI in unexpected ways, revealing intents and failure modes you didn't anticipate.
 
@@ -71,11 +71,12 @@ The pattern:
 
 ### The New Growth Playbook
 
-Traditional growth tactics are 60–70% obsolete—the market moves too fast for optimization cycles to complete before advantages expire.
+Only ~30–40% of the traditional growth playbook still applies—the market moves too fast for long optimization cycles to compound before the next model shift.
+Elena Verna (Head of Growth at Lovable; ex-Dropbox/Miro/Amplitude) frames this as a reset in what actually drives growth for AI products.
 
 **What works now:**
 - **Free as the most powerful lever** — Remove monetization friction entirely upfront
-- **Influencer marketing > paid social** — Higher ROI, more authentic
+- **Influencer marketing > paid social** — Higher ROI, more authentic, "showing beats telling"
 - **Build in public** — Social presence creates re-engagement
 - **AI credits at events/hackathons** — Marketing cost to drive virality
 - **Shipping frequency as retention** — Daily/multiple deployments create market noise
@@ -84,6 +85,33 @@ Traditional growth tactics are 60–70% obsolete—the market moves too fast for
 - Reframe MVP as delight-first experiences users want to share
 - Optimize engagement/usage first, monetization later
 - Launch pricing only after strong PMF to avoid leaving money on the table
+
+### The AI Growth Operating System (Feature-Led)
+
+When growth is mostly driven by new features (not funnel tweaks), operationalize it as repeatable loops.
+
+**1) Quarterly PMF re-validation (the treadmill cadence)**
+- Re-check ICP + "core promise" against new capabilities and new expectations
+- Identify what became table stakes since last quarter (and cut anything that now adds friction)
+- Commit to 1–3 "headline" improvements that create new word-of-mouth moments
+
+**2) Ship + Tell (shipping is only half the work)**
+- Make shipping visible: engineers announce updates, founder/PM shares progress, changelog stays current
+- Package every release with a shareable artifact: 10–30s demo, before/after, who it's for, and a "try it now" link
+- Treat distribution as part of the definition of done (not a marketing afterthought)
+
+**3) Credits-as-marketing (give it away like candy, with guardrails)**
+- Allocate a marketing budget to credits, hackathons, and sponsorships; measure like CAC
+- Design the path: credits → "aha" moment → shareable output → invite/word-of-mouth
+- Add anti-abuse controls early (caps, throttles, eligibility rules)
+
+**4) Creator/Influencer engine**
+- Prioritize short "capability demos" over polished ads; onboarding creators is a product surface
+- White-glove a small set of creators first; iterate on formats that spread
+
+**5) Community as a compounding lever**
+- Build a place users can help each other (support deflection + retention + insider identity)
+- Create rituals: weekly showcases, office hours, templates/prompts shared by power users
 
 ---
 
@@ -380,6 +408,7 @@ Removing humans reduces human input in what gets built and reduces agency/unders
 - **"Hire painfully slowly"** — Keep bar high under growth
 - **Intelligence over direct experience** — Across all functions including sales/marketing
 - **High-agency autonomous talent** — Comfortable with chaos
+- **Clarity from chaos** — Thrive without stable roadmaps (former founders, AI-native grads, operators who don't need instructions)
 
 ### Interview Innovation
 
@@ -405,12 +434,21 @@ Cursor's approach: Two-day onsite with frozen codebase to test:
 - Deadlines as P0—cut scope to ship on time
 - Aggressive recruiting (traveling to candidates, long-cycle follow-up)
 
+### Sustainable Pace Is a Competitive Advantage
+
+Fast AI markets reward continuous shipping, but speed only compounds if it's sustainable.
+
+- Protect non-negotiables (sleep, gym, family) and let work fill the remaining time
+- Build a cadence where shipping is routine, not a hero sprint
+- Treat burnout as product risk: it kills iteration speed and decision quality
+
 ### The Seasons Framework
 
 Plan in "seasons" for adaptation:
 - Semesters of planning
 - Loose quarterly OKRs
 - Squad goals
+- Quarterly PMF re-validation as a first-class ritual (ICP, promise, and what's now table stakes)
 
 Current season: Rise of agents. Next season: Fine-tuning agents with alignment, accountability, observability, and evaluation.
 
@@ -434,6 +472,8 @@ Reinforcement learning as key product technique for adapting models to outcomes.
 3. Optimize first 30 seconds of UX before launch
 4. Word of mouth before ads—that's the PMF signal
 5. Price after PMF, not before
+6. Run a Ship + Tell cadence—treat distribution as part of shipping
+7. Re-earn PMF quarterly—refresh ICP/promise as expectations shift
 
 ### When building vertical AI
 
@@ -468,8 +508,8 @@ Successful AI products are built on:
 1. **Latent demand discovery** — Unlock what users want but can't do today
 2. **Domain expertise integration** — Tight expert → eval → improvement loops
 3. **Production-grounded evaluation** — Signals + intents, not just offline metrics
-4. **Distribution advantages** — Virality, community, category creation
-5. **Continuous shipping** — Daily deploys, PMF treadmill, seasons of planning
+4. **Distribution advantages** — Virality, creators, community, category creation
+5. **Continuous shipping** — Feature-led releases, Ship + Tell cadence, PMF treadmill
 6. **Human-centric design** — Memory, empowerment, jagged intelligence awareness
 7. **Platform thinking** — Compound returns from shared capabilities
 

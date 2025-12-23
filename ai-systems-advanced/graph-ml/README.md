@@ -9,7 +9,7 @@ This section is currently a scaffold plus a curated external reading list (no pr
 ## Contents
 
 - GNNs: `gnns/README.md`
-- Notes / reading list: `notes/back-to-ai-basics-series.md`
+- Notes / reading list: `../../docs/ai-systems-advanced/graph-ml/notes/back-to-ai-basics-series.md`
 
 ## Related (In This Repo)
 

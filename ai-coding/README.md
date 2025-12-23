@@ -23,7 +23,7 @@ Best practices, checklists, and patterns for using AI assistants to **write, rev
 
 ## Notes
 
-**[AI-Assisted Coding Comprehensive Guide](notes/AI-coding-comprehensive-guide.md)** — Complete reference covering:
+**[AI-Assisted Coding Comprehensive Guide](../docs/ai-coding/AI-coding-comprehensive-guide.md)** — Complete reference covering:
 - Agent architecture patterns (sub-agents, parallel processing)
 - Retrieval for coding agents (when RAG helps vs hurts)
 - Testing and verification strategies

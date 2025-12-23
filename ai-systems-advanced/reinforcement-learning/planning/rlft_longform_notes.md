@@ -2,7 +2,7 @@
 
 This is a cleaned, repo-friendly version of a long-form RLFT overview. Use it as background reading alongside:
 
-- RLFT summary + checklist: `planning/rlft_concepts.md`
+- RLFT summary + checklist: `../../../docs/ai-systems-advanced/reinforcement-learning/planning/rlft_concepts.md`
 - Azure AI Foundry RLFT lab: `days/Day01/README.md`
 
 <details>

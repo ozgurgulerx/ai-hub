@@ -2,7 +2,7 @@
 
 This is the **minimum operational + mechanistic** mental model you should be able to explain while looking at Foundry RLFT curves.
 
-Companion: deeper concepts and use-case map in `planning/rlft_concepts.md`.
+Companion: deeper concepts and use-case map in `../../../../docs/ai-systems-advanced/reinforcement-learning/planning/rlft_concepts.md`.
 
 ---
 

@@ -40,7 +40,7 @@ For language, diffusion is often implemented in one of two broad styles:
 
 ## Notes
 
-- Simple diffusion language models (masked diffusion; Noiz summary, to verify): `notes/simple-diffusion-language-models-noiz-summary.md`
+- Simple diffusion language models (masked diffusion; Noiz summary, to verify): `../../docs/ai-model-space/diffusion-models/notes/simple-diffusion-language-models-noiz-summary.md`
 
 ## References (Starter List)
 

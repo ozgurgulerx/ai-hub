@@ -113,10 +113,10 @@ flowchart TB
 
 ## Reading notes
 
-- RLHF Book (MEAP v1): `planning/rlhf_book_notes.md`
-- RLFT / RFT overview: `planning/rlft_concepts.md`
+- RLHF Book (MEAP v1): `../../docs/ai-systems-advanced/reinforcement-learning/planning/rlhf_book_notes.md`
+- RLFT / RFT overview: `../../docs/ai-systems-advanced/reinforcement-learning/planning/rlft_concepts.md`
 - RLFT / RFT long-form notes: `planning/rlft_longform_notes.md`
-- Post-training and fine-tuning (MIT 6.S191 / Liquid AI; Noiz summary, to verify): `planning/post-training-and-fine-tuning-mit-6s191-liquid-ai-noiz-summary.md`
+- Post-training and fine-tuning (MIT 6.S191 / Liquid AI; Noiz summary, to verify): `../../docs/ai-systems-advanced/reinforcement-learning/planning/post-training-and-fine-tuning-mit-6s191-liquid-ai-noiz-summary.md`
 - World models on an academic budget (Nicklas Hansen; Noiz summary, to verify): `../model-space/world-models/notes/world-models-on-an-academic-budget-nicklas-hansen-noiz-summary.md`
 - Agent RFT (tool-use training on production workflows; Noiz summary, to verify): `planning/agent-rft-build-hour-openai-noiz-summary.md`
 

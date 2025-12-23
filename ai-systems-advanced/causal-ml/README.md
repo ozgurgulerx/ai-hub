@@ -26,4 +26,4 @@ This folder is for notes and references on **causal inference** and **causal mac
 
 ## Notes
 
-- Traversal (causal ML × RL) — placeholder: `notes/traversal-causal-ml-and-reinforcement-learning.md`
+- Traversal (causal ML × RL) — placeholder: `../../docs/ai-systems-advanced/causal-ml/notes/traversal-causal-ml-and-reinforcement-learning.md`

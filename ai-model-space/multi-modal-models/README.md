@@ -28,5 +28,5 @@ This folder is for notes and references on building AI systems that operate over
 - Document-heavy multimodal ingestion (VLM + CV): `../../retrieval-augmented-systems/notes/better-rag-through-better-data-reducto-noiz-summary.md`
 - Typed retrieval / mixture of encoders: `../../retrieval-augmented-systems/notes/mixture-of-encoders-query-understanding-noiz-summary.md`
 - Safety benchmarking notes (Noiz summary, to verify): `../../evalops/notes/safety-benchmarking-testing-multimodal-llms-tianwei-zhang-noiz-summary.md`
-- GPT Realtime (speech-to-speech, MCP mention; Noiz summary, to verify): `notes/introducing-gpt-realtime-api-noiz-summary.md`
-- Gemini 3 training/system-building notes (Noiz summary, to verify): `notes/gemini-3-and-the-future-of-ai-noiz-summary.md`
+- GPT Realtime (speech-to-speech, MCP mention; Noiz summary, to verify): `../../docs/ai-model-space/multi-modal-models/notes/introducing-gpt-realtime-api-noiz-summary.md`
+- Gemini 3 training/system-building notes (Noiz summary, to verify): `../../docs/ai-model-space/multi-modal-models/notes/gemini-3-and-the-future-of-ai-noiz-summary.md`

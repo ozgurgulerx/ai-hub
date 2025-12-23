@@ -38,6 +38,7 @@ This note distills claims from a **Noiz** summary provided in the prompt. Treat 
 
 Related (in this repo):
 - Build Hour notes on Responses API (Noiz summary, to verify): `../../../model-apis/openai/responses-api-build-hour-noiz-summary.md`
+- Build Hour notes on Responses API (Noiz summary, to verify): `../../../docs/ai-model-space/model-apis/openai/responses-api-build-hour-noiz-summary.md`
 - Agent examples using Responses API (Azure-style): `../../../projects/agents/05-agent-memory-general/README.md`
 
 ## Prompting / control techniques (claims)

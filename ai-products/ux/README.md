@@ -4,7 +4,7 @@ Interfaces and flows that guide users and guard quality in AI-powered products.
 
 ## Start Here
 
-**[AI UX Comprehensive Guide](notes/AI-UX-comprehensive-guide.md)** — Complete reference covering:
+**[AI UX Comprehensive Guide](../../docs/ai-products/ux/AI-UX-comprehensive-guide.md)** — Complete reference covering:
 
 - Core principles (expectations, quality visibility, failure handling)
 - Pattern cards (abstain behavior, progressive disclosure, confidence indicators)
