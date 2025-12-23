@@ -251,3 +251,14 @@ nav:
       - Overview: ai-security-and-governance/privacy/index.md
       - Differential Privacy: ai-security-and-governance/privacy/differential-privacy.md
       - Federated Learning: ai-security-and-governance/privacy/federated-learning.md
+    - GenAI Attacks:
+      - Overview: ai-security-and-governance/genai-attacks/index.md
+      - Prompt Injection: ai-security-and-governance/genai-attacks/prompt-injection.md
+      - Jailbreaks: ai-security-and-governance/genai-attacks/jailbreaks.md
+      - Data Poisoning: ai-security-and-governance/genai-attacks/data-poisoning.md
+      - Model Extraction: ai-security-and-governance/genai-attacks/model-extraction.md
+      - Membership Inference: ai-security-and-governance/genai-attacks/membership-inference.md
+      - Adversarial Examples: ai-security-and-governance/genai-attacks/adversarial-examples.md
+      - Tool Abuse: ai-security-and-governance/genai-attacks/tool-abuse.md
+      - Data Exfiltration: ai-security-and-governance/genai-attacks/data-exfiltration.md
+      - Multi-Agent Attacks: ai-security-and-governance/genai-attacks/multi-agent-attacks.md
