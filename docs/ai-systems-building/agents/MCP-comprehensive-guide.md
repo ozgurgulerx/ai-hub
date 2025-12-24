@@ -2,9 +2,20 @@
 
 MCP is a protocol for connecting LLM/agent applications to external tools and context providers through a consistent client↔server interface. Think of it as "USB-C for AI apps"—instead of building one-off connectors per tool/data source, you connect to servers that speak a standard protocol.
 
+At a systems level: **agents fail at scale** when tool integration is fragmented, insecure, hard to govern, and hard to observe. MCP addresses the *tooling layer* by standardizing how agents discover tools and exchange context across integration boundaries.
+
 ---
 
 ## The Core Problem MCP Solves
+
+### What an “Agent” Really Is
+
+- An agent is **LLM-controlled program flow**.
+- LLMs alone are weak for real work; **tools + context** are mandatory.
+- The hardest production problems are usually:
+  - Tool integration overhead
+  - Low-quality or inconsistent context
+  - Governance, security, and observability gaps
 
 ### M×N → M+N
 
@@ -15,6 +26,10 @@ MCP pushes you toward:
 - **M clients**: App/agent owners implement one MCP client per host runtime
 
 Any compliant client can talk to any compliant server, reducing duplicated integration work.
+
+Key insight:
+
+> Define a tool once → reuse it everywhere (chat, IDEs, copilots, workflows).
 
 ---
 
@@ -27,6 +42,14 @@ Any compliant client can talk to any compliant server, reducing duplicated integ
 | **Host** | The app users interact with; runs the model and orchestration | IDE, desktop app, agent runtime |
 | **Client** | Host-side component managing connection to one MCP server | Handles lifecycle, errors, request/response |
 | **Server** | Exposes capabilities and mediates access to underlying systems | Files, DBs, SaaS APIs |
+
+### Why the Client/Server Split Matters
+
+- **Clients** live where the agent runtime lives (chat apps, IDEs, desktop hosts).
+- **Servers** live where the capability lives (local automation or remote services).
+- This enables **hybrid workflows**:
+  - Local tools for developer productivity
+  - Remote tools for scalable, governed enterprise systems
 
 ### What MCP Standardizes
 
@@ -107,6 +130,38 @@ MCP uses JSON-RPC 2.0 message shapes:
 - Servers may use SSE for streaming back updates
 - Better for remote/multi-client deployments
 - Remote HTTP servers run independently
+
+---
+
+## Operating MCP at Scale
+
+In practice, “MCP at scale” is less about the wire protocol and more about three operational concerns:
+
+1. **Discovery** — how clients find *trusted* servers and tool surfaces
+2. **Deployment** — how servers run with tenant-aware auth, isolation, and policies
+3. **Observation** — how you trace, audit, and debug tool calls end-to-end
+
+### Discovery (Registries)
+
+- You typically want a **trusted registry** (internal or curated) to publish MCP servers.
+- Registries should support:
+  - Allow/deny lists
+  - Ranking/metadata (ownership, environment, scopes)
+  - Versioning and deprecation
+- Treat “random public MCP servers” as untrusted by default.
+
+### Deployment (Hosting)
+
+- Remote servers should be **tenant-aware** and enforce authorization at the server boundary.
+- Keep tool execution close to the system of record to reduce data movement and simplify auditing.
+
+### Observation (Telemetry)
+
+- Tool calls should emit enough telemetry to support:
+  - Debugging (inputs/outputs, errors, latency)
+  - Auditing (who did what, when)
+  - Cost control (call counts, token/tool budgets)
+- Establish conventions for trace IDs and correlation across agent runs.
 
 ---
 
@@ -309,8 +364,12 @@ Debugging tool to inspect tools/resources/prompts exposed by servers, analogous 
 - Registry: centralized database of servers with filtering/ranking, designed secure and spam-resistant
 
 ### Platform Integration
-- Windows: server support, registration, predefined servers
-- Azure AI Foundry: platform for building/deploying agents with MCP and human oversight patterns
+
+MCP is designed to be **platform-agnostic**: many hosts (IDEs, chat apps, agent runtimes) can integrate MCP clients, and many deployment environments can run MCP servers. The most important requirement is that platforms preserve:
+
+- Clear security boundaries (authz at the server)
+- Consistent discovery (trusted registries/config)
+- End-to-end observability (traces/audit)
 
 ---
 
